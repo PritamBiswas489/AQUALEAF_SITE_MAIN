@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1280px) {
+	.ourValue {
+		padding: 1rem 0;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.ourValueContent {
+		h4 {
+			font-size: 1rem;
+			img {
+				margin-right: 0.5rem;
+				width: 17px;
+			}
+		}
+		.ourValueContentInner {
+			&:not(:last-child) {
+				margin-bottom: 1.5rem;
+			}
+			p {
+				font-size: 0.8rem;
+			}
+		}
+	}
+	.ourValueImg {
+		width: 41%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.ourValueImg {
+		position: static;
+		width: 100%;
+		order: -1;
+		margin-bottom: 1rem;
+	}
+	.ourValue {
+		.col-lg-7 {
+			flex: 0 0 auto;
+			width: 100%;
+		}
+	}
+}

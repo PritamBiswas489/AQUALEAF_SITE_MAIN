@@ -1,0 +1,35 @@
+@import 'assets/styles/variable.scss';
+
+.devServOneSec {
+	padding: 2rem 0;
+}
+.devServOneSecCont {
+	max-width: none;
+	width: 38%;
+	margin-left: 150px;
+	margin-right: 0px;
+}
+.devServOneSecImg {
+	width: 62%;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	z-index: 2;
+	padding-left: 3rem;
+	img {
+		width: 100%;
+		height: auto;
+		vertical-align: bottom;
+	}
+}
+.dsolBox {
+	background: url(../../assets/images/common-image/coug.png) top -5px left no-repeat;
+	padding-left: 70px;
+	&:not(:last-child) {
+		margin-bottom: 2.8rem;
+	}
+	h4 {
+		font-weight: 700;
+		font-size: 1.75rem;
+	}
+}

@@ -1,0 +1,50 @@
+@import 'assets/styles/variable.scss';
+
+
+.bog-content-box {
+    padding: 3rem 0;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1;
+    }
+    p {
+        margin-bottom: 1.2rem;
+    }
+    img {
+        margin: 3px 0;
+    }
+    ul {
+        margin-top: 10px;
+        li {
+            position: relative;
+            padding: 5px 0 5px 20px;
+            &::before {
+                content: "\f101";
+                font-family: "Font Awesome 5 free";
+                font-weight: 900;
+                position: absolute;
+                left: 0;
+                font-size: 12px;
+                color: $bg-1;
+                line-height: 2;
+            }
+        }
+    }
+    ol {
+        li {
+            list-style: inside auto;
+            padding: 5px 0;
+            &::marker {
+                color: $bg-1;
+            }
+        }
+    }
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}

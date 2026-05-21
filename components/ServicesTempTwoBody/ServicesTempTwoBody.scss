@@ -1,0 +1,34 @@
+@import 'assets/styles/variable.scss';
+
+.ServicesTempTwoBody {
+	padding: 3rem 0;
+	background: #f9f9f9;
+}
+.SttbTitle {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	h2 {
+		font-weight: 700;
+		span {
+			color: $bg-1;
+		}
+	}
+}
+.devServArea {
+	padding: 3rem 0;
+}
+.SttbTitleTwo {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	h3 {
+		font-weight: 700;
+		font-size: 2.125rem;
+		span {
+			color: $bg-1;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+@media only screen and (max-width: 767px) {
+	.technologiesList {
+		ul {
+			margin-top: 0.5rem;
+			li {
+				padding: 0 2px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 480px) {
+	.technologiesList {
+		ul {
+			li {
+				span {
+					padding: 16px;
+				}
+			}
+		}
+	}
+	.PortfolioTechnologis {
+		background: #f9f9f9;
+		padding: 1.5rem 0;
+	}
+	.technologiesList {
+		h4 {
+			font-size: 1.4rem;
+			text-align: center;
+			width: 100%;
+		}
+	}
+}

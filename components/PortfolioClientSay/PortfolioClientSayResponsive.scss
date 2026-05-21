@@ -1,0 +1,37 @@
+@media only screen and (max-width: 767px) {
+	.PortfolioClientSay {
+		h2 {
+			font-size: 2.2rem;
+			span {
+				font-size: 2rem;
+			}
+		}
+		.testiContent {
+			p {
+				&:before {
+					top: -36px;
+					left: -32px;
+					font-size: 29px;
+				}
+				&:after {
+					font-size: 29px;
+					bottom: -23px;
+					right: -30px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 600px) {
+	.PortfolioClientSay {
+		h2 {
+			font-size: 1.5rem;
+			span {
+				font-size: 1.2rem;
+			}
+		}
+	}
+	.projectsArea {
+		padding: 1.5rem 0;
+	}
+}

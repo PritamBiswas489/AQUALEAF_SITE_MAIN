@@ -1,0 +1,31 @@
+@import 'assets/styles/variable.scss';
+
+.testimonialTitle {
+	background: #f9f9f9;
+	padding: 30px 0;
+	text-align: center;
+	h2 {
+		color: #2f2f2f;
+		padding: 0;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+}
+.testimonialPage {
+	.col-12 {
+		margin: 15px 0;
+	}
+	padding: 2rem 0 3rem;
+	.testiContent {
+		padding: 30px 30px;
+		background: #f9f9f9;
+		height: 100%;
+		.headIcon {
+			right: 30px;
+			bottom: calc(100% + -18px);
+		}
+		.link_text {
+			font-size: 14px;
+		}
+	}
+}

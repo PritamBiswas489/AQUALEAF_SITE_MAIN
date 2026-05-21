@@ -1,0 +1,268 @@
+@import 'assets/styles/variable.scss';
+.openPosition {
+    padding: 4rem 0;
+    // background: #f9f9f9;
+    .OpenPositionTitle {
+        margin-bottom: 30px;
+        overflow: hidden;
+        h2 {
+            text-align: center;
+            font-weight: 700;
+            text-align: center;
+            padding: 0;
+        }
+    }
+}
+
+.opAccordion {
+    .accordion-item {
+        border: none;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px -5px;
+        h2 {
+            padding: 0;
+        }
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+        .accordion-button {
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .accordion-button {
+            padding: 25px;
+            &:not(.collapsed) {
+                color: $bg-6;
+                background-color: $bg-1;
+                &::after {
+                    filter: invert(100%) brightness(100);
+                }
+            }
+        }
+    }
+}
+.accordionBodyInner {
+    h4 {
+        font-weight: 600;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+.abiBox {
+    &:not(:last-child) {
+        margin-bottom: 25px;
+    }
+    h5 {
+        font-weight: 700;
+        font-size: 16px;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    ul {
+        li {
+            position: relative;
+            padding-left: 25px;
+            &:after {
+                content: '\f111';
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                position: absolute;
+                left: 0;
+                top: 3px;
+                font-size: 8px;
+                color: $bg-1;
+            }
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+.applyForm {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 100%;
+    max-width: 450px;
+    z-index: 102;
+    transition: all ease-in-out 0.5s;
+    height: 100%;
+    &.active {
+        top: 0;
+        right: 0;
+        box-shadow: rgba(0, 0, 0, 0.3) -50px 0 100px 0;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    p {
+        margin-bottom: 30px;
+    }
+    .applyFormInner {
+        background: #fff;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        z-index: 5;
+        padding: 40px;
+        overflow-y: auto;        
+        &::-webkit-scrollbar {
+            -ms-overflow-style: none; /* for Internet Explorer, Edge */
+            scrollbar-width: none;  /* for Firefox  */
+            width: 0;
+        }
+    }
+    .consHolClose {
+        position: absolute;
+        top: 13px;
+        right: 20px;
+        color: $bg-1;
+        height: 40px;
+        width: 40px;
+        line-height: 43px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 1.25rem;
+        z-index: 5;
+        &:hover {
+            background: $bg-1;
+            color: #fff;
+        }
+    }
+}
+
+.applyInput {
+    background: #f9f9f9;
+    border-color: #f2f2f2;
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #f2f2f2;
+    }
+}
+
+.applyTextarea {
+    height: 100px !important;
+    resize: none;
+}
+
+.accordion-button:focus {
+    z-index: 1;
+    // border-color: var(--bs-accordion-btn-focus-border-color);
+    outline: 0;
+    box-shadow: none;
+}
+.applyFormInner {
+    .sendBtn {
+        width: 100%;
+        &:after {
+            height: 676%;
+            width: 173%;
+            transform: translateX(-77%) translateY(-25%) rotate(45deg);
+        }
+        &:hover {
+            &:after {
+                transform: translateX(-9%) translateY(-25%) rotate(45deg);
+            }
+        }
+    }
+}
+
+$color_1: #333;
+$color_2: #ffffff;
+$color_3: #666666;
+$border-color_1: #01c28d;
+$border-color_2: #3fa46a;
+
+.file-upload {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    .file-select {
+        display: block;
+        border: 2px solid #d3f6ec;
+        color: $color_1;
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+        text-align: left;
+        background: #ffffff;
+        overflow: hidden;
+        position: relative;
+        .file-select-button {
+            background: #d3f6ec;
+            padding: 0 10px;
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+        }
+        .file-select-name {
+            line-height: 40px;
+            display: inline-block;
+            padding: 0 10px;
+        }
+        &:hover {
+            border-color: $border-color_1;
+            transition: all 0.2s ease-in-out;
+            .file-select-button {
+                background: #01c28d;
+                color: $color_2;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+        input[type='file'] {
+            z-index: 100;
+            cursor: pointer;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+    }
+    .file-select.file-select-disabled {
+        opacity: 0.65;
+        &:hover {
+            cursor: default;
+            display: block;
+            border: 2px solid #d3f6ec;
+            color: $color_1;
+            cursor: pointer;
+            height: 40px;
+            line-height: 40px;
+            margin-top: 5px;
+            text-align: left;
+            background: #ffffff;
+            overflow: hidden;
+            position: relative;
+            .file-select-button {
+                background: #d3f6ec;
+                color: $color_3;
+                padding: 0 10px;
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+            }
+            .file-select-name {
+                line-height: 40px;
+                display: inline-block;
+                padding: 0 10px;
+            }
+        }
+    }
+}
+.file-upload.active {
+    .file-select {
+        border-color: $border-color_2;
+        transition: all 0.2s ease-in-out;
+        .file-select-button {
+            background: #3fa46a;
+            color: $color_2;
+            transition: all 0.2s ease-in-out;
+        }
+    }
+}

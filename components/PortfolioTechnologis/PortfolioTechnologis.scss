@@ -1,0 +1,39 @@
+.PortfolioTechnologis {
+    background: #f9f9f9;
+    padding: 2rem 0;
+}
+
+.technologiesList {
+    max-width: 1000px;
+    flex: 1000px;
+    h4 {
+        padding: 0;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    ul {
+        flex: 1 0 0;
+        max-width: 100%;
+        margin-left: 20px;
+        li {
+            flex: 0 0 25%;
+            max-width: 25%;
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+            span {
+                padding: 30px 10px;
+                background: #fff;
+                display: block;
+                border-radius: 10px;
+                border: #eee 1px solid;
+                width: 100%;
+                text-align: center;
+                img {
+                    display: inline-block;
+                    height: 60px;
+                }
+            }
+        }
+    }
+}

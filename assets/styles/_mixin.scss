@@ -1,0 +1,36 @@
+@mixin input {
+	display: block;
+	width: 100%;
+	padding: 0 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+}
+
+@mixin input-4 {
+	display: block;
+	width: 100%;
+	padding: 0 0.75rem;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	line-height: 1.5;
+	color: #fff !important;
+	background-color: transparent;
+	border: #fff 2px solid;
+}
+
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}
+	&:-moz-placeholder {
+		@content;
+	}
+	&::-moz-placeholder {
+		@content;
+	}
+	&:-ms-input-placeholder {
+		@content;
+	}
+}

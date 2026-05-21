@@ -1,0 +1,29 @@
+@media only screen and (max-width: 414px) {
+  .consultationHolder {
+    .consultationInner,
+    .startProjectInner {
+      padding: 2.5rem 1.2rem;
+    }
+  }
+  .shiduleBox {
+    a {
+      font-size: 12px;
+      padding: 10px 28px 10px 10px;
+      border-radius: 10px;
+      img {
+        width: 13px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .consultationHolder {
+    .schCons {
+      right: 1px;
+      .schConsBtn {
+        width: 50px;
+      }
+    }
+  }
+}

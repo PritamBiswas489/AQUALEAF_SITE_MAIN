@@ -1,0 +1,64 @@
+@import 'assets/styles/variable.scss';
+.whatWeDid {
+	padding: 3rem 0;
+	position: relative;
+}
+.whatWeDidDesc {
+	ul {
+		li {
+			flex: 0 0 50%;
+			max-width: 50%;
+			padding: 0 15px 0 35px;
+			font-size: 1.063rem;
+			margin: 1rem 0;
+			font-weight: 600;
+			position: relative;
+			&::after {
+				content: '';
+				position: absolute;
+				top: 12px;
+				left: 0;
+				width: 25px;
+				height: 2px;
+				background: #01c28d;
+				border-radius: 50%;
+			}
+		}
+	}
+}
+.whatWeDidTitle {
+	z-index: 1;
+	padding-right: 60px;
+	font-size: 1.25rem;
+	&:after {
+		content: '';
+		position: absolute;
+		background: $bg-1;
+		background-size: cover;
+		height: 18.75rem;
+		width: 18.75rem;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: -1;
+		left: -50px;
+		opacity: 0.3;
+		left: -36px;
+	}
+	// &:before{
+	//     content: "";
+	//     position: absolute;
+	//     background: url(../../assets/images/common-image/portfolio/what-did.png);
+	//     background-size: cover;
+	//     height: 400px;
+	//     width: 400px;
+	//     top: 50%;
+	//     transform: translateY(-50%);
+	//     z-index: -1;
+	//     left: -50px;
+	// }
+	h2 {
+		font-weight: 700;
+		color: $bg-3;
+		font-size: 2.813rem;
+	}
+}

@@ -1,0 +1,46 @@
+@import 'assets/styles/variable.scss';
+.servicesFaqTitle {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto 2rem;
+	h2 {
+		font-weight: 700;
+	}
+}
+
+.accordion-button{
+	&::after {
+		background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+		transform: scale(0.7) !important;
+	}
+	&:not(.collapsed){
+		&::after {
+			background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+		}
+	}
+}
+.faqAccordion {
+	h2 {
+		padding: 0;
+		button {
+			font-size: 1.25rem;
+			font-weight: 600;
+			box-shadow: none !important;
+			border: none !important;
+			border-radius: 0 !important;
+		}
+	}
+	.accordion-item {
+		border: none;
+		border-bottom: #ddd 1px solid;
+		margin-bottom: 0.6rem;
+		border-radius: 0;
+	}
+	.card-body {
+		padding: 1rem 0;
+	}
+	.accordion-button:not(.collapsed) {
+		color: #085540;
+		background-color: #cff0e7;
+	}
+}

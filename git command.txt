@@ -1,0 +1,21 @@
+echo "# aqua" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PritamBiswas489/aqua.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://PritamBiswas489@github.com/PritamBiswas489/aqua.git
+git branch -M main
+git push -u origin https://PritamBiswas489@github.com/PritamBiswas489/aqua.git
+
+
+
+
+
+git add --all
+git commit -m "Commit 27/02/2023 -04"
+git push --force origin main

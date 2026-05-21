@@ -1,0 +1,37 @@
+@media only screen and (max-width: 767px) {
+  .video-react {
+    .video-react-big-play-button {
+      font-size: 5em !important;
+    }
+  }
+  .videoBoxWrap {
+    .videoWrap,
+    .boxWrap {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .boxWrap {
+      h2 {
+        padding: 0;
+      }
+      .boxWrapInner {
+        padding: 15px 0 0;
+      }
+    }
+  }
+  .link_wrap {
+    margin-top: 10px !important;
+    .link_text {
+      font-size: 12px;
+    }
+  }
+  .clRev {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .link_wrap {
+    margin-top: 31px !important;
+  }
+}

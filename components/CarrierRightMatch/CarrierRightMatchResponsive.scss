@@ -1,0 +1,16 @@
+@media only screen and (max-width: 767px) {
+	.rightMatch {
+		background: #2f2f2f;
+		padding: 3rem 0;
+		h2 {
+			font-size: 1.3rem;
+			padding-bottom: 0.7rem;
+		}
+		h4 {
+			font-size: 0.9rem;
+			span {
+				margin-top: 1rem;
+			}
+		}
+	}
+}

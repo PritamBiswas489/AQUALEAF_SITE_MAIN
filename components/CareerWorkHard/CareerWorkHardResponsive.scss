@@ -1,0 +1,35 @@
+@media only screen and (max-width: 767px) {
+	.hardWorkArea {
+		padding: 2rem 0;
+		.sectionInner {
+			h3 {
+				font-size: 1.7rem;
+			}
+			p {
+				font-size: 0.795rem;
+				line-height: 1.7;
+			}
+		}
+		.wolfHerder {
+			order: -1;
+			margin-bottom: 15px;
+		}
+		.sectionInner.pr-20 {
+			padding-right: 0;
+		}
+		.sectionInner.pl20 {
+			padding-left: 0;
+		}
+		.benefitsPerks {
+			margin-bottom: 15px;
+		}
+	}
+	.benefitsPerksArea {
+		padding-top: 0;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.hardWorkArea .sectionInner h3 {
+		font-size: 1.4rem;
+	}
+}

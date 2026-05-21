@@ -1,0 +1,66 @@
+@import 'assets/styles/variable.scss';
+.projectsArea {
+	padding: 3rem 0;
+	background: #f9f9f9;
+	.col-lg-4 {
+		&:first-child {
+			animation: jump10p 20s linear infinite;
+		}
+	}
+	.col-lg-4 {
+		&:nth-child(2) {
+			animation: jump5p 5s linear infinite;
+		}
+	}
+	.col-lg-4 {
+		&:last-child {
+			animation: jump15p 7s linear infinite;
+		}
+	}
+}
+.imgBox {
+	border-radius: 10px;
+	overflow: hidden;
+	filter: drop-shadow(14px 12px 20px rgba(0, 0, 0, 0.14));
+
+	img {
+		width: 100%;
+		display: block;
+	}
+}
+
+// .projectsArea{
+//     padding: 66px 0 0;
+//     h2{
+//         font-weight: 700;
+//         font-size: 40px;
+//     }
+//     p{
+//         font-size: 35px;
+//         font-weight: 500;
+//         a{
+//             color: $bg-1;
+//             font-style: italic;
+//             text-decoration: underline;
+//         }
+//     }
+// }
+// .projectsImages {
+//     align-items: center;
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 70px 0;
+//     .imgBox{
+//         border-radius: 10px;
+//         overflow: hidden;
+//         filter: drop-shadow(14px 12px 20px rgba(0,0,0,.14));
+//         img{
+//             width: 100%;
+//             display: block;
+//         }
+//         &:nth-child(2) {
+//             margin: 0 66px;
+//             }
+//     }
+
+// }

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1280px) {
+	.howWeWorkLeft {
+		padding: 0 40px;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	.howWeWorkRight {
+		right: 0rem;
+		width: 43%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.howWeWorkBanner {
+		padding: 3rem 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.howWeWorkRight {
+		position: static;
+		transform: translateY(0);
+		width: 60%;
+		margin: 0 auto;
+		order: -1;
+	}
+	.howWeWorkBanner {
+		.col-7 {
+			width: 100%;
+		}
+	}
+	.howWeWorkLeft {
+		h2 {
+			font-size: 4.7vw;
+		}
+		p {
+			font-size: 3vw;
+		}
+	}
+}

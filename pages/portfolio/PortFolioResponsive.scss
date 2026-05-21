@@ -1,0 +1,68 @@
+@media only screen and (max-width: 767px) {
+	.portfolioPage {
+		.sectionFrame-even,
+		.portfolioBanner {
+			.col-lg-6:last-child {
+				order: -1;
+				margin-bottom: 15px;
+			}
+		}
+		.sectionInner {
+			text-align: center;
+		}
+		.csbList {
+			&.mt-4 {
+				margin-top: 0.75rem !important;
+			}
+			.caseStudy,
+			.developIcon {
+				margin: 0.5rem 0;
+			}
+		}
+		.csbList {
+			justify-content: center !important;
+		}
+		.sectionInner {
+			p {
+				font-size: 0.88rem;
+				line-height: 1.5;
+			}
+		}
+		.portfolioInner {
+			padding: 0;
+			h2 {
+				font-size: 2rem;
+			}
+			p {
+				font-size: 1rem;
+				line-height: 1.5;
+			}
+		}
+		.caseStudy {
+			line-height: 2.125rem;
+			padding: 0 1rem;
+			font-size: 0.675rem;
+		}
+		.developIcon {
+			li {
+				img {
+					height: 38px;
+				}
+			}
+		}
+	}
+	.isoArea {
+		position: absolute;
+		right: 0;
+		top: auto;
+		bottom: 0;
+		width: 3rem;
+	}
+}
+@media only screen and (max-width: 1280px) {
+.portfolioInner {
+	h2 {
+		font-size: 2.5vw;
+	}
+}
+}

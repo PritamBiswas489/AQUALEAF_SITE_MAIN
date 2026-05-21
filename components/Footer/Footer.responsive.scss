@@ -1,0 +1,43 @@
+@media only screen and (max-width: 767px) {
+  .footerBox {
+    ul {
+      li {
+        &:not(:last-child) {
+          margin-bottom: 0.5rem;
+        }
+        a {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+  .footerBoxContact {
+    ul {
+      margin-bottom: 15px;
+      li {
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  footer [class*="col-"] {
+    margin: 10px 0;
+  }
+  .footerTop {
+    padding: 2rem 0 1rem;
+  }
+  .footerBtm [class*="col-"] {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .footerBtm {
+    padding: 0.6rem 0 0;
+  }
+  .bullHorn {
+    display: none;
+  }
+}

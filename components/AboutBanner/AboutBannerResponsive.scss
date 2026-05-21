@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1280px) {
+	.aboutBanner {
+		h2 {
+			font-size: 2rem;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	.aboutBannerImg {
+		top: 16%;
+	}
+	.aboutBanner {
+		overflow: hidden;
+		padding: 2rem 0;
+		h2 {
+			font-size: 1.6rem;
+		}
+	}
+	.aboutCont {
+		padding: 0 20px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.aboutBanner {
+		h2 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 1.8vw;
+		}
+		.caseStudy {
+			margin-top: 0.8rem;
+		}
+	}
+}
+@media only screen and (max-width: 560px) {
+	.aboutBannerImg {
+		width: 100%;
+		position: static;
+		animation: none;
+		margin-bottom: 1rem;
+	}
+	.aboutBanner {
+		padding: 0 0 2rem 0;
+		.col-7 {
+			flex: 0 0 auto;
+			width: 100%;
+		}
+	}
+	.aboutCont {
+		padding: 0;
+	}
+	.aboutBanner {
+		h2 {
+			font-size: 1.3rem;
+		}
+		p {
+			font-size: 0.75rem;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+@import 'assets/styles/variable.scss';
+
+.aboutBanner {
+	overflow: hidden;
+	padding: 5rem 0 9rem;
+	h2 {
+		font-weight: 700;
+	}
+	p {
+		font-size: 1.3vw;
+	}
+	.caseStudy {
+		margin-top: 1.8rem;
+	}
+}
+.aboutBannerImg {
+	width: 40%;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	animation: jump10p 5s linear infinite;
+	img {
+		display: block;
+		width: 100%;
+	}
+}
+.aboutBanner {
+	.btnAndWiget {
+		.clRev {
+			margin-left: .8rem;
+			ul {
+				li {
+					a {
+						filter: drop-shadow(0 0px 8px rgba(0, 0, 0, 0.13)) !important;
+						img{
+							max-height: 30px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}

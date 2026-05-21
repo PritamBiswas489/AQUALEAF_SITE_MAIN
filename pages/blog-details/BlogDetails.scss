@@ -1,0 +1,65 @@
+@import 'assets/styles/variable.scss';
+.blogDetails {
+	.box-content {
+		h4 {
+			font-weight: 700;
+			font-size: 30px;
+		}
+	}
+	.box-date {
+		background: #fff;
+		bottom: 0;
+		padding: 12px;
+		width: 123px;
+		position: absolute;
+		left: 0;
+		.date {
+			color: #d0d0d0;
+			font-size: 6.12em;
+			line-height: 70px;
+			font-weight: 600;
+			span {
+				font-size: 56.667%;
+				line-height: 40px;
+				vertical-align: top;
+			}
+		}
+		.month {
+			font-size: 1.286em;
+			position: absolute;
+			right: 8px;
+			top: 56px;
+			color: $bg-1;
+			line-height: normal;
+			font-weight: 800;
+		}
+	}
+
+	.box-img {
+		img {
+			width: 100%;
+			display: block;
+		}
+	}
+
+	.box-content {
+		.info {
+			border-bottom: 1px solid #eaeaea;
+			display: table;
+			margin-bottom: 20px;
+			width: 100%;
+			padding: 12px 0;
+			.item {
+				display: block;
+				font-style: italic;
+				width: auto;
+				&:not(:last-child) {
+					margin: 0 53px 0 0;
+				}
+				a {
+					color: #696972;
+				}
+			}
+		}
+	}
+}

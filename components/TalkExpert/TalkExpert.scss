@@ -1,0 +1,32 @@
+@import 'assets/styles/variable.scss';
+.talkExpert {
+	padding: 4rem 0;
+	background: rgb(0, 94, 69);
+	background: -moz-linear-gradient(45deg, rgba(0, 94, 69, 1) 0%, rgba(1, 187, 137, 1) 39%, rgba(1, 187, 137, 1) 58%, rgba(0, 94, 69, 1) 100%);
+	background: -webkit-linear-gradient(45deg, rgba(0, 94, 69, 1) 0%, rgba(1, 187, 137, 1) 39%, rgba(1, 187, 137, 1) 58%, rgba(0, 94, 69, 1) 100%);
+	background: linear-gradient(45deg, rgba(0, 94, 69, 1) 0%, rgba(1, 187, 137, 1) 39%, rgba(1, 187, 137, 1) 58%, rgba(0, 94, 69, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005e45', endColorstr='#005e45',GradientType=1 );
+
+	.talkExpertInner {
+		max-width: 800px;
+		margin: 0 auto;
+		width: 100%;
+		padding: 0 1rem;
+		font-size: 1.1rem;
+		color: $bg-6;
+		.freeQuoteBtn {
+			background: $bg-6;
+			padding: 0 3rem;
+			border-radius: 1.875rem;
+			color: $bg-3;
+			line-height: 2.8;
+			font-weight: 600;
+			font-size: 1rem;
+		}
+	}
+	h3 {
+		font-weight: 700;
+		color: $bg-6;
+		font-size: 2.5rem;
+	}
+}

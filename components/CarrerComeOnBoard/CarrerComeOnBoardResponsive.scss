@@ -1,0 +1,37 @@
+@media only screen and (max-width: 767px) {
+	.comeOnBoard {
+		padding: 2.25rem 0;
+		.comeOnBoardBox {
+			padding: 2rem 1rem;
+			h3 {
+				font-size: 13px;
+			}
+			.cbIcon {
+				width: 40px;
+				&:after {
+					width: 80px;
+					height: 80px;
+				}
+			}
+		}
+	}
+	.ribbon {
+		width: 70px;
+		height: 70px;
+		span {
+			width: 130px;
+			font-size: 10px;
+		}
+	}
+	.ribbon-top-right {
+		span {
+			left: -24px;
+			top: 23px;
+		}
+	}
+	.staffImg {
+		h2 {
+			font-size: 1.7rem;
+		}
+	}
+}

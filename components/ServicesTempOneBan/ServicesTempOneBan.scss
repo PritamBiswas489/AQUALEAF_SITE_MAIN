@@ -1,0 +1,122 @@
+@import 'assets/styles/variable.scss';
+.servicesTempOneBanLeft {
+	h5 {
+		font-size: 2.7vw;
+		font-weight: 300;
+		color: $bg-1;
+	}
+	h2 {
+		font-size: 4.3vw;
+		font-weight: 700;
+	}
+	p {
+		font-size: 1.5vw;
+		line-height: 1.7;
+	}
+	h6 {
+		font-size: 1.25rem;
+		color: #318f75;
+		margin-top: 1.2rem;
+	}
+}
+.servicesTempOneBanRight {
+	background: rgba(1, 194, 141, 0.36);
+	backdrop-filter: blur(2px);
+	padding: 2.5rem;
+	border-radius: 1.25rem;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		height: calc(100% - 40px);
+		width: calc(100% - 40px);
+		border: #fff 1px solid;
+		z-index: -1;
+		border-radius: 20px;
+	}
+	.callContact {
+		margin: .5rem 0 1.5rem;
+	}
+	h3 {
+		font-size: 2.3vw;
+		span {
+			font-weight: 700;
+			display: block;
+			// background: #fff;
+			// font-size: 3rem;
+		}
+	}
+}
+
+.callContact {
+	ul {
+		li {
+			width: 50%;
+			flex: 0 0 50%;
+			padding: 0 0.5rem;
+			a,
+			button {
+				background: $bg-6;
+				color: $bg-3;
+				display: block;
+				border: none;
+				width: 100%;
+				line-height: 2.6;
+				border-radius: 30px;
+				font-weight: 700;
+				&:hover {
+					background: $bg-1;
+					color: $bg-6;
+				}
+			}
+		}
+	}
+}
+.servicesTempOneBan {
+	padding: 6rem 0;
+	position: relative;
+	z-index: 1;
+	background-size: cover !important;
+	// &:before {
+	// 	content: '';
+	// 	position: absolute;
+	// 	left: 0;
+	// 	bottom: 0;
+	// 	width: 50%;
+	// 	height: 100%;
+	// 	background: url(../../assets/images/common-image/service-one/left.png) top left no-repeat;
+	// 	z-index: -1;
+	// 	background-size: contain;
+	// }
+	// &:after {
+	// 	content: '';
+	// 	position: absolute;
+	// 	right: 0;
+	// 	top: 0;
+	// 	width: 50%;
+	// 	height: 100%;
+	// 	background: url(../../assets/images/common-image/service-one/right.png) top left no-repeat;
+	// 	z-index: -1;
+	// }
+}
+
+
+.servicesTempLogo{
+	margin-top: 1rem;
+	ul{
+		li{
+			background: rgba(255,255,255,.8);
+			border-radius: 10px;
+			padding:.8rem .4rem;
+			filter: drop-shadow(0 9px 4px rgba(0, 0, 0, 0.05));
+			&:not(:last-child){
+				margin-right: .5rem;
+			}
+			img{
+				display: block;
+				max-width: 100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+@import 'assets/styles/variable.scss';
+
+.ourValue {
+	position: relative;
+	padding: 6rem 0;
+}
+.ourValueImg {
+	width: 34%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	img {
+		width: 100%;
+		display: block;
+	}
+}
+
+.ourValueContent {
+	h2 {
+		font-weight: 700;
+		padding: 0;
+		margin-bottom: 2rem;
+	}
+	h4 {
+		font-weight: 700;
+		img {
+			margin-right: 1rem;
+			width: 30px;
+		}
+	}
+	.ourValueContentInner {
+		p {
+			font-size: 16px;
+			color: $bg-4;
+		}
+		&:not(:last-child) {
+			margin-bottom: 2.5rem;
+		}
+	}
+}

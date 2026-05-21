@@ -1,0 +1,56 @@
+@import 'assets/styles/variable.scss';
+.StobWorkWithUs {
+	padding: 3rem 0;
+	overflow: hidden;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+}
+.workWithLeft {
+	width: 58%;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	.workWithImg {
+		width: 100%;
+		img {
+			width: 100%;
+			display: block;
+		}
+	}
+}
+.workWithRight {
+	max-width: none;
+	width: 42%;
+	margin-left: 0px;
+	margin-right: 100px;
+	padding: 0 30px;
+}
+.workWithRightInner {
+	h3 {
+		font-size: 2.3vw;
+		font-weight: 700;
+	}
+	p {
+		font-size: 1.7vw;
+		margin-bottom: 1rem;
+	}
+	ul {
+		li {
+			font-size: 1.2vw;
+			&:not(:last-child) {
+				margin-bottom: 1rem;
+			}
+			padding-left: 30px;
+			position: relative;
+			&:after {
+				content: '\f058';
+				font-family: 'Font Awesome 5 free';
+				font-weight: 900;
+				position: absolute;
+				left: 0;
+				top: 0;
+				color: $bg-1;
+			}
+		}
+	}
+}

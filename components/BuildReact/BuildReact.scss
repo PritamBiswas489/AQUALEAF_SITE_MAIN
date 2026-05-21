@@ -1,0 +1,27 @@
+@import 'assets/styles/variable.scss';
+.bulidReactRight {
+	ul {
+		li {
+			margin: 0 1rem 1rem 0;
+			// flex-grow: 1;
+			span {
+				display: block;
+				box-shadow: rgba(0, 0, 0, 0.3) 0 0 16px -5px;
+				border-radius: 0.5rem;
+				text-align: center;
+				padding: 0.75rem;
+				background: #fff;
+				font-weight: 600;
+				color: #666;
+				svg {
+					color: $bg-1;
+					margin-right: 5px;
+					font-size: 20px;
+				}
+				img {
+					max-width: 20px;
+				}
+			}
+		}
+	}
+}

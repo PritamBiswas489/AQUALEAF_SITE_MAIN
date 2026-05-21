@@ -1,0 +1,386 @@
+@import "assets/styles/variable.scss";
+// For Header
+@media only screen and (max-width: 2560px) {
+}
+
+@media only screen and (max-width: 1920px) {
+}
+
+@media only screen and (max-width: 1660px) {
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1366px) {
+  .dropdown-item {
+    font-size: 0.85rem;
+  }
+  .navInner {
+    > ul {
+      > li {
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+        > a {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  .bookCallBtn {
+    padding: 6px 25px;
+    font-size: 0.8rem;
+    &:after {
+      width: 16px;
+      height: 15px;
+      background-size: 15px;
+    }
+  }
+  header {
+    .logo {
+      max-width: 200px;
+      width: 100%;
+    }
+  }
+  .subMenu {
+    h3 {
+      font-size: 1.2rem;
+      color: #2f2f2f;
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .menu-left {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .menu-right {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .dropdown-item {
+    font-size: 0.75rem;
+    img {
+      width: 28px;
+      margin-right: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1204px) {
+}
+
+@media only screen and (max-width: 1135px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 1000px) {
+}
+
+@media only screen and (max-width: 991px) {
+  .mobHide {
+    display: none !important;
+  }
+
+  /*--nav--*/
+  .humbergar {
+    position: absolute;
+    display: block;
+    right: 14px;
+    top: 30px;
+  }
+  .bookCall {
+    margin-left: 0;
+    margin-right: 42px;
+  }
+  .topHeader {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+}
+
+@media only screen and (max-width: 910px) {
+}
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 885px) {
+}
+
+@media only screen and (max-width: 880px) {
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    .logo {
+      max-width: 200px;
+    }
+  }
+  .bookCallBtn {
+    padding: 6px 16px;
+    font-size: 13px;
+    &:after {
+      content: "";
+      width: 18px;
+      height: 16px;
+      background-size: 16px;
+      margin-left: 5px;
+    }
+    &:hover {
+      &:after {
+        margin-left: 10px;
+      }
+    }
+  }
+  .humbergar {
+    top: 23px;
+  }
+  .designrush-logo-wrap {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    background: rgba(255, 255, 255, 1);
+    backdrop-filter: none;
+  }
+  .for-mobile {
+    display: block;
+    position: fixed;
+    background: url("../../assets/images/common-image/leaf-bg-r.png") bottom
+      right no-repeat $bg-6;
+    width: 100%;
+    max-width: 350px;
+    z-index: 5;
+    transition: all ease-in-out 0.5s;
+    height: 100%;
+    top: 0;
+    padding: 2.5rem;
+    right: -100%;
+    &.active {
+      top: 0;
+      right: 0;
+      box-shadow: rgba(0, 0, 0, 0.3) -50px 0 100px 0;
+    }
+    .mobile-menu-btn {
+      position: absolute;
+      top: 7px;
+      right: 20px;
+      color: #01c28d;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      font-size: 1.25rem;
+      z-index: 5;
+      border: none;
+      outline: none;
+      background: #fff;
+      svg {
+        line-height: 40px;
+      }
+      &:hover {
+        background: #01c28d;
+        color: #fff;
+      }
+    }
+    .mobile-menu {
+      ul {
+        li {
+          a {
+            color: #2f2f2f;
+            font-size: 0.838rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            // display: block;
+            white-space: nowrap;
+            position: relative;
+            padding: 0.5rem 0;
+            letter-spacing: 1px;
+            &::after {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              background: #01c28d;
+              transform: scale(0, 1);
+              transform-origin: right;
+              transition: transform 0.4s ease;
+              height: 1px;
+              width: 100%;
+            }
+            &:hover,
+            &.active {
+              &::after {
+                transform: scale(1, 1);
+                transform-origin: left;
+              }
+            }
+          }
+        }
+        ul {
+          padding-left: 1rem;
+          margin-bottom: 0.6rem;
+          li {
+            a {
+              font-size: 0.8rem;
+              text-transform: capitalize;
+              font-weight: 600;
+              padding: 0.3rem 0;
+              letter-spacing: 0;
+              color: #666;
+            }
+            &:not(:last-child) {
+              margin-bottom: 0.1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .socialAdderss {
+    margin-top: 2rem;
+    ul {
+      li {
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+        a {
+          color: $headerbtmBg;
+          font-size: 1rem;
+          font-weight: 600;
+          svg {
+            color: $bg-1;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .socialLink {
+    margin-top: 2.3rem;
+    ul {
+      li {
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
+        a {
+          color: $bg-3;
+          font-size: 1.25rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .scheduleMeeting {
+    color: $bg-3;
+    font-weight: 800;
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+}
+
+@media only screen and (max-width: 667px) {
+  header {
+    .logo {
+      max-width: 150px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 545px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .bookCallBtn {
+    padding: 4px 10px;
+    font-size: 10px;
+    &:after {
+      width: 11px;
+      height: 12px;
+      background-size: 11px;
+    }
+  }
+  .humbergar {
+    span {
+      margin: 4px 0;
+    }
+  }
+
+  .hiring {
+    left: 0;
+    top: calc(100% + 10px);
+    .hiringActive {
+      padding: 1px 10px;
+      font-size: 9px;
+      &::after {
+        transform: rotate(7deg);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .headerInner {
+    padding: 0.6rem 0;
+  }
+  .humbergar {
+    top: 17px;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+}
+
+@media only screen and (max-width: 375px) {
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (max-width: 240px) {
+}
+
+@media (min-width: 1400px) {
+  .menu-left {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .menu-right {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (min-width: 1366px) {
+  .menu-left {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .menu-right {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

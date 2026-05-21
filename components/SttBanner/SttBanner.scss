@@ -1,0 +1,57 @@
+@import 'assets/styles/variable.scss';
+
+.SttBanner {
+	padding: 3rem 0;
+	background-size: cover !important;
+}
+.SttBannerLeft {
+	h5 {
+		font-size: 2.5rem;
+		font-weight: 500;
+		color: $bg-3;
+	}
+	h2 {
+		font-size: 3.75rem;
+		font-weight: 700;
+		color: $bg-6;
+	}
+	p {
+		font-size: 1.125rem;
+		line-height: 1.7;
+		color: $bg-6;
+	}
+	.callCont {
+		margin: 1.5rem 0;
+		ul {
+			li {
+				&:not(:last-child) {
+					margin-right: 1rem;
+				}
+				a,
+				button {
+					display: block;
+					background: $bg-6;
+					color: $bg-3;
+					border-radius: 6px;
+					text-align: center;
+					padding: 0 2rem;
+					line-height: 2.8;
+					border: none;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					&:hover {
+						background: $bg-3;
+						color: $bg-6;
+					}
+				}
+			}
+		}
+	}
+}
+
+.SttBannerRight {
+	img {
+		max-width: 100%;
+	}
+}

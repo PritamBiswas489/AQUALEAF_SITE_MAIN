@@ -1,0 +1,50 @@
+@import 'assets/styles/variable.scss';
+
+.carrerBanner {
+	padding: 5rem 0;
+	background-size: cover !important;
+}
+.cbSlogan {
+	h2 {
+		font-weight: 700;
+	}
+	p {
+		font-size: 1.125rem;
+		line-height: 2;
+		span {
+			display: block;
+			margin-top: 1rem;
+			font-weight: 700;
+			color: $bg-1;
+		}
+	}
+}
+.cbImg {
+	padding-left: 3.125rem;
+	position: relative;
+	z-index: 1;
+	&::after {
+		content: '';
+		width: 11.25rem;
+		height: 11.25rem;
+		background: #019ec2;
+		position: absolute;
+		right: -1.875rem;
+		bottom: -3.125rem;
+		opacity: 0.2;
+	}
+	&::before {
+		content: '';
+		width: 79%;
+		height: 11.25rem;
+		background: #bef4e6;
+		position: absolute;
+		left: -0.625rem;
+		top: -3.125rem;
+		z-index: -1;
+	}
+	img {
+		width: 100%;
+		display: block;
+	}
+}

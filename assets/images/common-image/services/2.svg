@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="54px" height="54px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 54 54"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+    .str10 {stroke:black;stroke-width:4;stroke-miterlimit:22.9256}
+    .str8 {stroke:#262020;stroke-width:4;stroke-miterlimit:22.9256}
+    .str5 {stroke:#262020;stroke-width:5;stroke-miterlimit:22.9256}
+    .str0 {stroke:black;stroke-width:2.36;stroke-miterlimit:22.9256}
+    .str6 {stroke:#262020;stroke-width:2.36;stroke-miterlimit:22.9256}
+    .str2 {stroke:#262020;stroke-width:6;stroke-miterlimit:22.9256}
+    .str9 {stroke:black;stroke-width:3;stroke-miterlimit:22.9256}
+    .str11 {stroke:#262020;stroke-width:3;stroke-miterlimit:22.9256}
+    .str7 {stroke:#262020;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str1 {stroke:#262020;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str13 {stroke:#262020;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str4 {stroke:#262020;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str3 {stroke:#262020;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str12 {stroke:#262020;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil75 {fill:black}
+    .fil22 {fill:#262020}
+    .fil2 {fill:#262020}
+    .fil35 {fill:#666666}
+    .fil33 {fill:#9900CC}
+    .fil39 {fill:#D95050}
+    .fil1 {fill:#262020;fill-rule:nonzero}
+    .fil34 {fill:#666666;fill-rule:nonzero}
+    .fil3 {fill:url(#id7)}
+    .fil4 {fill:url(#id8)}
+    .fil5 {fill:url(#id9)}
+    .fil6 {fill:url(#id10);fill-rule:nonzero}
+    .fil46 {fill:url(#id11);fill-rule:nonzero}
+    .fil64 {fill:url(#id12);fill-rule:nonzero}
+    .fil43 {fill:url(#id13);fill-rule:nonzero}
+    .fil8 {fill:url(#id14);fill-rule:nonzero}
+    .fil58 {fill:url(#id15);fill-rule:nonzero}
+    .fil16 {fill:url(#id16);fill-rule:nonzero}
+    .fil49 {fill:url(#id17);fill-rule:nonzero}
+    .fil17 {fill:url(#id18);fill-rule:nonzero}
+    .fil73 {fill:url(#id19);fill-rule:nonzero}
+    .fil61 {fill:url(#id20);fill-rule:nonzero}
+    .fil21 {fill:url(#id21);fill-rule:nonzero}
+    .fil7 {fill:url(#id22);fill-rule:nonzero}
+    .fil55 {fill:url(#id23);fill-rule:nonzero}
+    .fil48 {fill:url(#id24);fill-rule:nonzero}
+    .fil74 {fill:url(#id25);fill-rule:nonzero}
+    .fil52 {fill:url(#id26);fill-rule:nonzero}
+    .fil51 {fill:url(#id27);fill-rule:nonzero}
+    .fil26 {fill:url(#id28);fill-rule:nonzero}
+    .fil70 {fill:url(#id29);fill-rule:nonzero}
+    .fil15 {fill:url(#id30);fill-rule:nonzero}
+    .fil36 {fill:url(#id31);fill-rule:nonzero}
+    .fil69 {fill:url(#id32);fill-rule:nonzero}
+    .fil67 {fill:url(#id33);fill-rule:nonzero}
+    .fil72 {fill:url(#id34);fill-rule:nonzero}
+    .fil44 {fill:url(#id35);fill-rule:nonzero}
+    .fil30 {fill:url(#id36);fill-rule:nonzero}
+    .fil14 {fill:url(#id37);fill-rule:nonzero}
+    .fil32 {fill:url(#id38);fill-rule:nonzero}
+    .fil9 {fill:url(#id39);fill-rule:nonzero}
+    .fil54 {fill:url(#id40);fill-rule:nonzero}
+    .fil63 {fill:url(#id41);fill-rule:nonzero}
+    .fil24 {fill:url(#id42);fill-rule:nonzero}
+    .fil25 {fill:url(#id43);fill-rule:nonzero}
+    .fil31 {fill:url(#id44);fill-rule:nonzero}
+    .fil50 {fill:url(#id45);fill-rule:nonzero}
+    .fil10 {fill:url(#id46);fill-rule:nonzero}
+    .fil45 {fill:url(#id47);fill-rule:nonzero}
+    .fil59 {fill:url(#id48);fill-rule:nonzero}
+    .fil38 {fill:url(#id49);fill-rule:nonzero}
+    .fil27 {fill:url(#id50);fill-rule:nonzero}
+    .fil42 {fill:url(#id51);fill-rule:nonzero}
+    .fil47 {fill:url(#id52);fill-rule:nonzero}
+    .fil29 {fill:url(#id53);fill-rule:nonzero}
+    .fil23 {fill:url(#id54);fill-rule:nonzero}
+    .fil12 {fill:url(#id55);fill-rule:nonzero}
+    .fil13 {fill:url(#id56);fill-rule:nonzero}
+    .fil11 {fill:url(#id57);fill-rule:nonzero}
+    .fil60 {fill:url(#id58);fill-rule:nonzero}
+    .fil40 {fill:url(#id59);fill-rule:nonzero}
+    .fil37 {fill:url(#id60);fill-rule:nonzero}
+    .fil19 {fill:url(#id61);fill-rule:nonzero}
+    .fil62 {fill:url(#id62);fill-rule:nonzero}
+    .fil57 {fill:url(#id63);fill-rule:nonzero}
+    .fil56 {fill:url(#id64);fill-rule:nonzero}
+    .fil53 {fill:url(#id65);fill-rule:nonzero}
+    .fil68 {fill:url(#id66);fill-rule:nonzero}
+    .fil41 {fill:url(#id67);fill-rule:nonzero}
+    .fil66 {fill:url(#id68);fill-rule:nonzero}
+    .fil18 {fill:url(#id69);fill-rule:nonzero}
+    .fil71 {fill:url(#id70);fill-rule:nonzero}
+    .fil20 {fill:url(#id71);fill-rule:nonzero}
+    .fil28 {fill:url(#id72);fill-rule:nonzero}
+    .fil65 {fill:url(#id73);fill-rule:nonzero}
+  </style>
+   <clipPath id="id0">
+    <rect x="-1206.29" y="-847.29" width="170.58" height="170.58"/>
+   </clipPath>
+   <clipPath id="id1">
+    <rect x="-2382.6" y="-745" width="184" height="184"/>
+   </clipPath>
+   <clipPath id="id2">
+    <rect x="-1466.52" y="-938.41" width="184" height="184"/>
+   </clipPath>
+   <clipPath id="id3">
+    <rect x="-1711.51" y="-968.28" width="165.27" height="165.27"/>
+   </clipPath>
+   <clipPath id="id4">
+    <rect x="-1410.7" y="-707.7" width="163.4" height="163.4"/>
+   </clipPath>
+   <clipPath id="id5">
+    <rect x="-1085" y="-1061.14" width="176" height="176"/>
+   </clipPath>
+   <clipPath id="id6">
+    <rect x="233" y="-35" width="50" height="50"/>
+   </clipPath>
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" x1="-377.41" y1="63.87" x2="-377.4" y2="9.41">
+   <stop offset="0" style="stop-opacity:1; stop-color:#318513"/>
+   <stop offset="0.478431" style="stop-opacity:1; stop-color:#5EB33F"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#AFD135"/>
+  </linearGradient>
+  <linearGradient id="id8" gradientUnits="userSpaceOnUse" xlink:href="#id7" x1="-377.41" y1="63.87" x2="-377.4" y2="9.42">
+  </linearGradient>
+  <linearGradient id="id9" gradientUnits="userSpaceOnUse" xlink:href="#id7" x1="-377.41" y1="63.87" x2="-377.4" y2="9.42">
+  </linearGradient>
+  <linearGradient id="id10" gradientUnits="userSpaceOnUse" xlink:href="#id7" x1="-377.41" y1="63.87" x2="-377.4" y2="9.42">
+  </linearGradient>
+  <linearGradient id="id11" gradientUnits="userSpaceOnUse" x1="-130.39" y1="55.42" x2="-130.38" y2="0">
+   <stop offset="0" style="stop-opacity:1; stop-color:#207B1E"/>
+   <stop offset="0.478431" style="stop-opacity:1; stop-color:#3E983B"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#73AB35"/>
+  </linearGradient>
+  <linearGradient id="id12" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id13" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.42" x2="-130.38" y2="0">
+  </linearGradient>
+  <linearGradient id="id14" gradientUnits="userSpaceOnUse" xlink:href="#id7" x1="-377.42" y1="63.87" x2="-377.4" y2="9.41">
+  </linearGradient>
+  <linearGradient id="id15" gradientUnits="userSpaceOnUse" x1="-190.05" y1="53.98" x2="-190.05" y2="-6.25">
+   <stop offset="0" style="stop-opacity:1; stop-color:#207B1E"/>
+   <stop offset="0.439216" style="stop-opacity:1; stop-color:#3E983B"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#73AB35"/>
+  </linearGradient>
+  <linearGradient id="id16" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.86" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id17" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.42" x2="-130.38" y2="0">
+  </linearGradient>
+  <linearGradient id="id18" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.87" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id19" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id20" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="17.27" y1="7.97" x2="17.27" y2="3.47">
+  </linearGradient>
+  <linearGradient id="id21" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.87" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id22" gradientUnits="userSpaceOnUse" xlink:href="#id7" x1="-377.41" y1="63.87" x2="-377.4" y2="9.41">
+  </linearGradient>
+  <linearGradient id="id23" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="54" x2="-190.05" y2="-6.25">
+  </linearGradient>
+  <linearGradient id="id24" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.42" x2="-130.38" y2="0.01">
+  </linearGradient>
+  <linearGradient id="id25" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.51" x2="38.8" y2="-9.32">
+  </linearGradient>
+  <linearGradient id="id26" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="54" x2="-190.05" y2="-6.25">
+  </linearGradient>
+  <linearGradient id="id27" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="53.99" x2="-190.05" y2="-6.25">
+  </linearGradient>
+  <linearGradient id="id28" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id29" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.79" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id30" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.86" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id31" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-60.07" y1="-29.65" x2="-60.06" y2="-77.15">
+  </linearGradient>
+  <linearGradient id="id32" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.52" x2="38.8" y2="-9.31">
+  </linearGradient>
+  <linearGradient id="id33" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id34" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id35" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.43" x2="-130.38" y2="0">
+  </linearGradient>
+  <linearGradient id="id36" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id37" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.87" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id38" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="203.99" x2="-223.71" y2="159.95">
+  </linearGradient>
+  <linearGradient id="id39" gradientUnits="userSpaceOnUse" xlink:href="#id7" x1="-377.41" y1="63.86" x2="-377.4" y2="9.42">
+  </linearGradient>
+  <linearGradient id="id40" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="54" x2="-190.05" y2="-6.26">
+  </linearGradient>
+  <linearGradient id="id41" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id42" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id43" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id44" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id45" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="54" x2="-190.05" y2="-6.25">
+  </linearGradient>
+  <linearGradient id="id46" gradientUnits="userSpaceOnUse" xlink:href="#id7" x1="-377.41" y1="63.86" x2="-377.4" y2="9.42">
+  </linearGradient>
+  <linearGradient id="id47" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.43" x2="-130.38" y2="0">
+  </linearGradient>
+  <linearGradient id="id48" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="54" x2="-190.05" y2="-6.24">
+  </linearGradient>
+  <linearGradient id="id49" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-60.07" y1="-29.65" x2="-60.06" y2="-77.15">
+  </linearGradient>
+  <linearGradient id="id50" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id51" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.42" x2="-130.38" y2="0">
+  </linearGradient>
+  <linearGradient id="id52" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.42" x2="-130.38" y2="0.01">
+  </linearGradient>
+  <linearGradient id="id53" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id54" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id55" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.86" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id56" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.87" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id57" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.87" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id58" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="13.61" y1="7.97" x2="13.61" y2="3.47">
+  </linearGradient>
+  <linearGradient id="id59" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.42" x2="-130.38" y2="0">
+  </linearGradient>
+  <linearGradient id="id60" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-60.07" y1="-29.65" x2="-60.06" y2="-77.15">
+  </linearGradient>
+  <linearGradient id="id61" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.87" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id62" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="20.94" y1="7.97" x2="20.94" y2="3.47">
+  </linearGradient>
+  <linearGradient id="id63" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="54" x2="-190.05" y2="-6.25">
+  </linearGradient>
+  <linearGradient id="id64" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="54" x2="-190.05" y2="-6.25">
+  </linearGradient>
+  <linearGradient id="id65" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-190.05" y1="54" x2="-190.05" y2="-6.26">
+  </linearGradient>
+  <linearGradient id="id66" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id67" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-130.39" y1="55.42" x2="-130.38" y2="0">
+  </linearGradient>
+  <linearGradient id="id68" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id69" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.87" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id70" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+  <linearGradient id="id71" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="-332.84" y1="57.89" x2="-332.11" y2="6.88">
+  </linearGradient>
+  <linearGradient id="id72" gradientUnits="userSpaceOnUse" xlink:href="#id15" x1="-223.71" y1="217.75" x2="-223.71" y2="158.5">
+  </linearGradient>
+  <linearGradient id="id73" gradientUnits="userSpaceOnUse" xlink:href="#id11" x1="38.8" y1="51.5" x2="38.8" y2="-9.3">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="54" height="54"/>
+  <rect class="fil0" y="-103.14" width="54" height="54"/>
+  <g style="clip-path:url(#id0)">
+   <image x="-1206.29" y="-847.29" width="170.58" height="170.58" xlink:href="2.svg_Images\2.svg_ImgID1.png"/>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <image x="-2382.6" y="-745" width="184" height="184" xlink:href="2.svg_Images\2.svg_ImgID2.png"/>
+  </g>
+  <g style="clip-path:url(#id2)">
+   <image x="-1466.52" y="-938.41" width="184" height="184" xlink:href="2.svg_Images\2.svg_ImgID3.png"/>
+  </g>
+  <g style="clip-path:url(#id3)">
+   <image x="-1711.51" y="-968.27" width="165.27" height="165.27" xlink:href="2.svg_Images\2.svg_ImgID4.png"/>
+  </g>
+  <g style="clip-path:url(#id4)">
+   <image x="-1410.7" y="-707.7" width="163.41" height="163.41" xlink:href="2.svg_Images\2.svg_ImgID5.png"/>
+  </g>
+  <g style="clip-path:url(#id5)">
+   <image x="-1085" y="-1061.14" width="176" height="176" xlink:href="2.svg_Images\2.svg_ImgID6.png"/>
+  </g>
+  <g id="_2007350890192">
+   <path class="fil1" d="M11.69 -103.14l30.62 0c1.09,0 2.08,0.45 2.8,1.17l0 0c0.72,0.72 1.17,1.71 1.17,2.8l0 39.54c-3.89,3.49 -7.77,6.99 -11.66,10.49l-22.93 0c-1.09,0 -2.08,-0.45 -2.8,-1.16l-0.01 -0.01c-0.71,-0.71 -1.16,-1.71 -1.16,-2.79l0 -46.07c0,-1.09 0.45,-2.08 1.16,-2.8l0.01 0c0.72,-0.72 1.71,-1.17 2.8,-1.17zm30.62 1.48l-30.62 0c-0.69,0 -1.31,0.28 -1.76,0.73 -0.45,0.45 -0.73,1.07 -0.73,1.76l0 46.07c0,0.68 0.28,1.3 0.73,1.75 0.45,0.45 1.07,0.73 1.76,0.73l22.37 0 10.74 -9.67 0 -38.88c0,-0.69 -0.28,-1.31 -0.73,-1.76l0 0c-0.45,-0.45 -1.07,-0.73 -1.76,-0.73z"/>
+   <path class="fil1" d="M33.83 -49.95l0 -6.72c0,-1.09 0.45,-2.08 1.16,-2.79l0.01 -0.01c0.72,-0.72 1.71,-1.16 2.8,-1.16l3.62 0 0 1.48 -3.62 0c-0.69,0 -1.31,0.28 -1.76,0.73 -0.45,0.45 -0.73,1.07 -0.73,1.75l0 6.72 -1.48 0z"/>
+   <polygon class="fil1" points="35.64,-90.08 35.64,-79.32 27.18,-75.17 18.73,-79.32 18.73,-90.08 20.21,-90.08 20.21,-80.24 27.18,-76.81 34.15,-80.24 34.15,-90.08 "/>
+   <path class="fil1" d="M19.79 -91.04l7.39 -3.77 8.68 4.43 -8.68 4.43 -8.68 -4.43 1.29 -0.66zm7.39 -2.11l-5.43 2.77 5.43 2.77 5.43 -2.77 -5.43 -2.77z"/>
+   <polygon class="fil1" points="23.31,-88.73 30.41,-92.82 31.15,-91.54 24.04,-87.45 "/>
+   <polygon class="fil1" points="27.71,-86.44 27.71,-79.4 26.22,-79.4 26.22,-86.44 "/>
+   <rect class="fil2" x="21.54" y="-97.8" width="11.13" height="1.63"/>
+   <rect class="fil2" x="15.39" y="-73.39" width="23.37" height="1.63"/>
+   <rect class="fil2" x="15.39" y="-68.63" width="23.37" height="1.63"/>
+   <rect class="fil2" x="15.39" y="-64.09" width="23.37" height="1.63"/>
+   <rect class="fil2" x="15.39" y="-59.63" width="15.35" height="1.63"/>
+  </g>
+  <g id="_2007355223264">
+   <circle class="fil2" cx="-232.46" cy="-84.74" r="0.97"/>
+   <circle class="fil2" cx="-228.74" cy="-60.79" r="0.97"/>
+   <g>
+    <path class="fil1" d="M-268.54 -93.44l52.52 0c0.41,0 0.74,0.33 0.74,0.75l0 11.6c0,0.41 -0.33,0.74 -0.74,0.74l-52.52 0c-0.41,0 -0.74,-0.33 -0.74,-0.74l0 -11.6c0,-0.42 0.33,-0.75 0.74,-0.75zm51.77 1.49l-51.02 0 0 10.11 51.02 0 0 -10.11z"/>
+    <path class="fil1" d="M-259.46 -83.92c-0.41,0 -0.75,-0.33 -0.75,-0.74 0,-0.41 0.34,-0.75 0.75,-0.75l23.8 0c0.41,0 0.74,0.34 0.74,0.75 0,0.41 -0.33,0.74 -0.74,0.74l-23.8 0z"/>
+    <path class="fil1" d="M-223.31 -90.46c0.94,0 1.79,0.38 2.41,1 0.62,0.62 1.01,1.47 1.01,2.42 0,0.94 -0.39,1.8 -1,2.42 -0.62,0.62 -1.48,1 -2.42,1 -0.95,0 -1.8,-0.38 -2.42,-1 -0.62,-0.62 -1.01,-1.48 -1.01,-2.42 0,-0.94 0.39,-1.8 1.01,-2.42l0 0c0.62,-0.62 1.48,-1 2.42,-1zm1.15 2.26c-0.29,-0.3 -0.7,-0.48 -1.15,-0.48 -0.46,0 -0.87,0.18 -1.16,0.48l0 0c-0.3,0.3 -0.48,0.7 -0.48,1.16 0,0.45 0.18,0.86 0.48,1.16 0.29,0.29 0.7,0.48 1.16,0.48 0.45,0 0.86,-0.19 1.15,-0.48 0.3,-0.3 0.48,-0.71 0.48,-1.16 0,-0.45 -0.18,-0.86 -0.48,-1.16z"/>
+    <path class="fil1" d="M-222.31 -84.62c-0.35,-0.35 -0.35,-0.92 0,-1.27 0.35,-0.35 0.91,-0.35 1.26,0l1.73 1.73c0.35,0.35 0.35,0.91 0,1.26 -0.35,0.35 -0.92,0.35 -1.26,0l-1.73 -1.72z"/>
+    <path class="fil1" d="M-268.54 -78.56l32.43 0c0.41,0 0.75,0.33 0.75,0.74l0 21.57c0,0.41 -0.34,0.75 -0.75,0.75l-32.43 0c-0.41,0 -0.74,-0.34 -0.74,-0.75l0 -21.57c0,-0.41 0.33,-0.74 0.74,-0.74zm31.69 1.49l-30.94 0 0 20.08 30.94 0 0 -20.08z"/>
+    <path class="fil1" d="M-232.69 -78.56l16.67 0c0.41,0 0.74,0.33 0.74,0.74l0 21.57c0,0.41 -0.33,0.75 -0.74,0.75l-16.67 0c-0.41,0 -0.74,-0.34 -0.74,-0.75l0 -21.57c0,-0.41 0.33,-0.74 0.74,-0.74zm15.92 1.49l-15.17 0 0 20.08 15.17 0 0 -20.08z"/>
+    <path class="fil1" d="M-229.22 -72.76c-0.49,0 -0.9,-0.4 -0.9,-0.89 0,-0.49 0.41,-0.9 0.9,-0.9l9.73 0c0.49,0 0.89,0.41 0.89,0.9 0,0.49 -0.4,0.89 -0.89,0.89l-9.73 0z"/>
+    <path class="fil1" d="M-229.22 -68.59c-0.49,0 -0.9,-0.41 -0.9,-0.9 0,-0.49 0.41,-0.89 0.9,-0.89l9.73 0c0.49,0 0.89,0.4 0.89,0.89 0,0.49 -0.4,0.9 -0.89,0.9l-9.73 0z"/>
+    <path class="fil1" d="M-229.22 -64.13c-0.49,0 -0.9,-0.4 -0.9,-0.89 0,-0.5 0.41,-0.9 0.9,-0.9l9.73 0c0.49,0 0.89,0.4 0.89,0.9 0,0.49 -0.4,0.89 -0.89,0.89l-9.73 0z"/>
+    <path class="fil1" d="M-224.83 -59.83c-0.49,0 -0.89,-0.4 -0.89,-0.89 0,-0.49 0.4,-0.89 0.89,-0.89l5.34 0c0.49,0 0.89,0.4 0.89,0.89 0,0.49 -0.4,0.89 -0.89,0.89l-5.34 0z"/>
+    <path class="fil1" d="M-267.99 -55.75c-0.27,0.31 -0.74,0.33 -1.05,0.05 -0.3,-0.27 -0.32,-0.74 -0.05,-1.05l9.08 -9.96c0.27,-0.31 0.74,-0.33 1.05,-0.05 0.03,0.03 0.06,0.06 0.08,0.09l5.34 6.22c0.26,0.31 0.23,0.78 -0.09,1.05 -0.31,0.26 -0.77,0.23 -1.04,-0.09l-4.81 -5.6 -8.51 9.34z"/>
+    <path class="fil1" d="M-255.97 -55.94c-0.25,0.32 -0.72,0.38 -1.04,0.12 -0.32,-0.25 -0.38,-0.72 -0.12,-1.04l10.23 -12.94c0.26,-0.32 0.72,-0.37 1.04,-0.12 0.05,0.04 0.09,0.08 0.13,0.13l10.21 13.09c0.25,0.32 0.19,0.78 -0.13,1.04 -0.32,0.25 -0.79,0.19 -1.04,-0.13l-9.63 -12.35 -9.65 12.2z"/>
+    <polygon class="fil1" points="-250.3,-65.05 -242.95,-65.05 -242.95,-63.56 -250.3,-63.56 "/>
+    <path class="fil1" d="M-252.34 -60.26c-0.41,0 -0.75,-0.34 -0.75,-0.75 0,-0.41 0.34,-0.74 0.75,-0.74l5.59 0c0.42,0 0.75,0.33 0.75,0.74 0,0.41 -0.33,0.75 -0.75,0.75l-5.59 0z"/>
+    <path class="fil1" d="M-255 -75.14c0.98,0 1.87,0.4 2.52,1.05l0 0c0.65,0.65 1.05,1.54 1.05,2.52 0,0.98 -0.4,1.87 -1.05,2.52l0 0c-0.65,0.65 -1.54,1.05 -2.52,1.05 -0.98,0 -1.87,-0.4 -2.52,-1.05l0 0c-0.65,-0.65 -1.05,-1.54 -1.05,-2.52 0,-0.98 0.4,-1.87 1.05,-2.52l0 0c0.65,-0.65 1.54,-1.05 2.52,-1.05zm1.47 2.09c-0.37,-0.37 -0.89,-0.6 -1.47,-0.6 -0.58,0 -1.1,0.23 -1.47,0.6l-0.01 0.01c-0.37,0.37 -0.6,0.89 -0.6,1.47 0,0.58 0.23,1.1 0.6,1.47l0.01 0.01c0.37,0.37 0.89,0.6 1.47,0.6 0.58,0 1.1,-0.23 1.47,-0.6l0.01 -0.01c0.37,-0.37 0.6,-0.89 0.6,-1.47 0,-0.58 -0.23,-1.1 -0.6,-1.47l-0.01 -0.01z"/>
+    <path class="fil1" d="M-268.54 -53.84l16.66 0c0.42,0 0.75,0.34 0.75,0.75l0 11.6c0,0.41 -0.33,0.75 -0.75,0.75l-16.66 0c-0.41,0 -0.74,-0.34 -0.74,-0.75l0 -11.6c0,-0.41 0.33,-0.75 0.74,-0.75zm15.92 1.49l-15.17 0 0 10.12 15.17 0 0 -10.12z"/>
+    <path class="fil1" d="M-248.45 -53.84l32.43 0c0.41,0 0.74,0.34 0.74,0.75l0 11.6c0,0.41 -0.33,0.75 -0.74,0.75l-32.43 0c-0.42,0 -0.75,-0.34 -0.75,-0.75l0 -11.6c0,-0.41 0.33,-0.75 0.75,-0.75zm31.68 1.49l-30.94 0 0 10.12 30.94 0 0 -10.12z"/>
+    <path class="fil1" d="M-239.98 -46.51c-0.49,0 -0.89,-0.4 -0.89,-0.89 0,-0.5 0.4,-0.9 0.89,-0.9l18.63 0c0.5,0 0.89,0.4 0.89,0.9 0,0.49 -0.39,0.89 -0.89,0.89l-18.63 0z"/>
+   </g>
+   <circle class="fil2" cx="-243.69" cy="-47.47" r="0.97"/>
+  </g>
+  <g id="_2007230446560">
+   <path class="fil1" d="M-434.19 6.06l7.47 4.99 7.54 -4.96c0.44,-0.29 1.03,-0.17 1.32,0.27 0.04,0.07 0.07,0.13 0.1,0.2l3.13 8.46 9.01 0.42c0.52,0.02 0.93,0.47 0.91,1 0,0.07 -0.01,0.14 -0.03,0.21l-2.46 8.69 7.05 5.64c0.41,0.33 0.48,0.92 0.15,1.33 -0.04,0.06 -0.1,0.11 -0.15,0.16l-7.09 5.59 2.39 8.7c0.14,0.51 -0.16,1.04 -0.67,1.17 -0.07,0.02 -0.14,0.03 -0.21,0.04l-9.02 0.35 -3.18 8.45c-0.19,0.49 -0.74,0.74 -1.23,0.56 -0.08,-0.03 -0.16,-0.08 -0.23,-0.13l-7.47 -4.99 -7.54 4.96c-0.44,0.29 -1.03,0.17 -1.32,-0.27 -0.04,-0.06 -0.07,-0.13 -0.1,-0.19l-3.12 -8.47 -9.02 -0.42c-0.52,-0.02 -0.93,-0.46 -0.91,-0.99 0.01,-0.07 0.02,-0.15 0.04,-0.22l2.45 -8.69 -7.05 -5.63c-0.41,-0.33 -0.48,-0.93 -0.15,-1.34 0.05,-0.06 0.1,-0.11 0.15,-0.15l7.09 -5.6 -2.39 -8.7c-0.14,-0.51 0.16,-1.03 0.67,-1.17 0.07,-0.02 0.14,-0.03 0.21,-0.03l9.02 -0.36 3.18 -8.45c0.19,-0.49 0.74,-0.74 1.23,-0.55 0.09,0.03 0.16,0.07 0.23,0.12zm6.94 6.93l-7.03 -4.7 -2.99 7.92c-0.13,0.34 -0.46,0.6 -0.85,0.61l-8.45 0.34 2.22 8.08c0.13,0.38 0.02,0.81 -0.31,1.07l-6.65 5.24 6.55 5.24c0.33,0.22 0.5,0.64 0.39,1.04l-2.3 8.14 8.39 0.39c0.4,0 0.77,0.24 0.91,0.63l2.93 7.93 7.02 -4.62c0.32,-0.23 0.75,-0.25 1.1,-0.02l7.03 4.69 2.98 -7.91c0.13,-0.35 0.46,-0.6 0.85,-0.62l8.46 -0.33 -2.22 -8.09c-0.14,-0.37 -0.03,-0.81 0.31,-1.07l6.64 -5.24 -6.55 -5.23c-0.33,-0.23 -0.5,-0.64 -0.38,-1.05l2.29 -8.14 -8.39 -0.39c-0.39,0.01 -0.77,-0.24 -0.91,-0.62l-2.93 -7.94 -7.02 4.62c-0.31,0.24 -0.75,0.26 -1.09,0.03z"/>
+   <path class="fil1" d="M-426.93 16.97c4.01,0 7.64,1.62 10.26,4.25 2.63,2.63 4.26,6.26 4.26,10.27 0,4.01 -1.63,7.64 -4.26,10.27 -2.62,2.62 -6.25,4.25 -10.26,4.25 -4.01,0 -7.64,-1.63 -10.27,-4.25 -2.63,-2.63 -4.25,-6.26 -4.25,-10.27 0,-4.01 1.62,-7.64 4.25,-10.27 2.63,-2.63 6.26,-4.25 10.27,-4.25zm8.91 5.6c-2.28,-2.28 -5.43,-3.69 -8.91,-3.69 -3.48,0 -6.64,1.41 -8.92,3.69 -2.28,2.29 -3.69,5.44 -3.69,8.92 0,3.48 1.41,6.63 3.69,8.91 2.28,2.28 5.44,3.7 8.92,3.7 3.48,0 6.63,-1.42 8.91,-3.7 2.28,-2.28 3.69,-5.43 3.69,-8.91 0,-3.48 -1.41,-6.63 -3.69,-8.92z"/>
+   <path class="fil1" d="M-433.88 31.54c-0.38,-0.37 -0.38,-0.98 0,-1.35 0.37,-0.37 0.98,-0.37 1.35,0l3.47 3.47 7.29 -7.3c0.37,-0.37 0.98,-0.37 1.35,0 0.38,0.38 0.38,0.98 0,1.36l-7.97 7.97c-0.37,0.37 -0.98,0.37 -1.35,0l-4.14 -4.15z"/>
+  </g>
+  <g id="_2007230438080">
+   <rect class="fil3" x="-391.79" y="21.47" width="29.29" height="2.17"/>
+   <rect class="fil4" x="-384.66" y="15.34" width="2.32" height="2.32"/>
+   <rect class="fil5" x="-372.73" y="15.34" width="2.32" height="2.32"/>
+   <g>
+    <path class="fil6" d="M-377.4 7.43c4.37,0 8.34,1.78 11.22,4.66 2.88,2.88 4.67,6.85 4.67,11.22l0 21.16c0,0.93 -0.38,1.77 -0.99,2.38 -0.61,0.62 -1.46,1 -2.39,1l-1.9 0 0 6.54c0,1.23 -0.5,2.35 -1.31,3.16 -0.82,0.81 -1.94,1.32 -3.17,1.32 -1.23,0 -2.35,-0.51 -3.16,-1.32 -0.81,-0.81 -1.31,-1.93 -1.31,-3.16l0 -6.54 -3.31 0 0 6.54c0,1.23 -0.51,2.35 -1.32,3.16 -0.81,0.81 -1.93,1.32 -3.16,1.32 -1.23,0 -2.36,-0.51 -3.17,-1.32 -0.81,-0.81 -1.31,-1.93 -1.31,-3.16l0 -6.54 -1.9 0c-0.93,0 -1.77,-0.38 -2.38,-0.99 -0.62,-0.62 -1,-1.46 -1,-2.39l0 -21.16c0,-4.37 1.79,-8.34 4.67,-11.22 2.88,-2.88 6.85,-4.66 11.22,-4.66zm0 1.99c-3.82,0 -7.29,1.56 -9.81,4.08 -2.52,2.52 -4.09,5.99 -4.09,9.81l0 21.16c0,0.38 0.16,0.73 0.41,0.98 0.25,0.25 0.6,0.41 0.98,0.41l3.89 0 0 8.53c0,0.68 0.28,1.3 0.73,1.75 0.45,0.46 1.08,0.74 1.76,0.74 0.68,0 1.31,-0.28 1.76,-0.73 0.45,-0.46 0.73,-1.08 0.73,-1.76l0 -8.53 7.29 0 0 8.53c0,0.68 0.28,1.3 0.73,1.75 0.45,0.46 1.07,0.74 1.75,0.74 0.69,0 1.31,-0.28 1.76,-0.73 0.45,-0.46 0.73,-1.08 0.73,-1.76l0 -8.53 3.89 0c0.38,0 0.73,-0.16 0.98,-0.41 0.25,-0.25 0.41,-0.6 0.41,-0.98l0 -21.16c0,-3.82 -1.57,-7.29 -4.09,-9.81 -2.51,-2.52 -5.99,-4.08 -9.81,-4.08z"/>
+    <path class="fil7" d="M-395.78 21.31c1.23,0 2.35,0.5 3.16,1.31 0.81,0.82 1.31,1.94 1.31,3.17l0 13.27c0,1.23 -0.5,2.34 -1.31,3.16l0 0c-0.81,0.81 -1.93,1.31 -3.16,1.31 -1.24,0 -2.36,-0.5 -3.17,-1.31 -0.81,-0.82 -1.31,-1.93 -1.31,-3.16l0 -13.27c0,-1.23 0.5,-2.35 1.31,-3.17 0.81,-0.81 1.93,-1.31 3.17,-1.31zm1.75 2.72c-0.45,-0.45 -1.07,-0.73 -1.75,-0.73 -0.69,0 -1.31,0.28 -1.76,0.73 -0.45,0.45 -0.73,1.08 -0.73,1.76l0 13.27c0,0.68 0.28,1.3 0.73,1.75 0.45,0.45 1.07,0.73 1.76,0.73 0.68,0 1.3,-0.28 1.75,-0.73 0.45,-0.45 0.73,-1.07 0.73,-1.75l0 -13.27c0,-0.68 -0.28,-1.31 -0.73,-1.76z"/>
+    <path class="fil8" d="M-359.05 21.31c1.23,0 2.35,0.5 3.16,1.31 0.82,0.82 1.32,1.94 1.32,3.17l0 13.27c0,1.23 -0.5,2.34 -1.31,3.16l-0.01 0c-0.81,0.81 -1.93,1.31 -3.16,1.31 -1.23,0 -2.35,-0.5 -3.16,-1.31 -0.81,-0.82 -1.31,-1.93 -1.31,-3.16l0 -13.27c0,-1.23 0.5,-2.35 1.31,-3.17 0.81,-0.81 1.93,-1.31 3.16,-1.31zm1.76 2.72c-0.45,-0.45 -1.07,-0.73 -1.76,-0.73 -0.68,0 -1.3,0.28 -1.75,0.73 -0.45,0.45 -0.73,1.08 -0.73,1.76l0 13.27c0,0.68 0.28,1.3 0.73,1.75 0.45,0.45 1.07,0.73 1.75,0.73 0.69,0 1.31,-0.28 1.76,-0.73 0.45,-0.45 0.73,-1.07 0.73,-1.75l0 -13.27c0,-0.68 -0.28,-1.31 -0.73,-1.76z"/>
+    <polygon class="fil9" points="-366.9,5.91 -369.78,10.58 -371.47,9.54 -368.59,4.87 "/>
+    <polygon class="fil10" points="-386.81,4.87 -383.93,9.54 -385.61,10.58 -388.49,5.91 "/>
+   </g>
+  </g>
+  <g id="_2007226068528">
+   <path class="fil11" d="M-325.71 47.96c0,-0.55 0.45,-1 1.01,-1 0.55,0 1,0.45 1,1l0 8.22c0,0.74 -0.3,1.41 -0.78,1.9l-0.01 0c-0.49,0.49 -1.16,0.79 -1.89,0.79l-25.49 0c-0.74,0 -1.4,-0.3 -1.89,-0.79l-0.01 0c-0.48,-0.49 -0.78,-1.16 -0.78,-1.9l0 -6.71c0,-0.55 0.45,-1.01 1,-1.01 0.56,0 1.01,0.46 1.01,1.01l0 6.71c0,0.19 0.07,0.36 0.19,0.48l0.01 0c0.12,0.12 0.28,0.19 0.47,0.19l25.49 0c0.19,0 0.35,-0.07 0.47,-0.19l0.01 0c0.12,-0.12 0.19,-0.29 0.19,-0.48l0 -8.22zm-26.83 -2.17c0,0.55 -0.45,1 -1.01,1 -0.55,0 -1,-0.45 -1,-1l0 -38.24c0,-0.73 0.3,-1.4 0.78,-1.89l0.01 0c0.49,-0.49 1.16,-0.79 1.89,-0.79l25.49 0c0.73,0 1.41,0.3 1.89,0.79l0.01 0c0.48,0.49 0.78,1.16 0.78,1.89l0 16.14c0,0.55 -0.45,1 -1,1 -0.56,0 -1.01,-0.45 -1.01,-1l0 -16.14c0,-0.18 -0.07,-0.35 -0.19,-0.47l-0.01 -0.01c-0.12,-0.12 -0.28,-0.19 -0.47,-0.19l-25.49 0c-0.19,0 -0.35,0.07 -0.47,0.19l-0.01 0.01c-0.12,0.12 -0.19,0.29 -0.19,0.47l0 38.24z"/>
+   <polygon class="fil12" points="-353.55,11.04 -324.7,11.04 -324.7,13.05 -353.55,13.05 "/>
+   <polygon class="fil13" points="-353.55,48.47 -324.7,48.47 -324.7,50.48 -353.55,50.48 "/>
+   <path class="fil14" d="M-343.11 54.84c-0.55,0 -1.01,-0.45 -1.01,-1 0,-0.56 0.46,-1.01 1.01,-1.01l7.97 0c0.55,0 1.01,0.45 1.01,1.01 0,0.55 -0.46,1 -1.01,1l-7.97 0z"/>
+   <path class="fil15" d="M-344.46 24.56c0.33,0.32 0.34,0.85 0.01,1.18 -0.32,0.33 -0.85,0.34 -1.18,0.01l-3.64 -3.52c-0.33,-0.32 -0.33,-0.85 -0.01,-1.18 1.19,-1.19 2.44,-2.36 3.65,-3.53 0.33,-0.33 0.86,-0.32 1.18,0.01 0.33,0.33 0.32,0.86 -0.01,1.18l-3.02 2.93 3.02 2.92z"/>
+   <path class="fil16" d="M-332.37 25.75c-0.33,0.33 -0.86,0.32 -1.19,-0.01 -0.32,-0.33 -0.31,-0.86 0.02,-1.18l3.02 -2.92 -3.02 -2.93c-0.33,-0.32 -0.34,-0.85 -0.02,-1.18 0.33,-0.33 0.86,-0.34 1.19,-0.01 1.21,1.17 2.46,2.34 3.65,3.53 0.32,0.33 0.32,0.86 -0.02,1.18l-3.63 3.52z"/>
+   <path class="fil17" d="M-338.05 15.15c0.21,-0.51 0.79,-0.77 1.31,-0.56 0.51,0.2 0.77,0.78 0.56,1.3l-5.03 12.74c-0.2,0.51 -0.79,0.77 -1.3,0.56 -0.52,-0.2 -0.77,-0.79 -0.57,-1.3l5.03 -12.74z"/>
+   <path class="fil18" d="M-324.37 30.69c1.29,0 2.47,0.53 3.32,1.38 0.85,0.85 1.38,2.02 1.38,3.32 0,1.3 -0.53,2.47 -1.38,3.32 -0.85,0.85 -2.02,1.37 -3.32,1.37 -1.29,0 -2.47,-0.52 -3.32,-1.37 -0.85,-0.85 -1.37,-2.03 -1.37,-3.32 0,-1.29 0.52,-2.47 1.37,-3.32l0.01 0c0.85,-0.85 2.02,-1.38 3.31,-1.38zm1.9 2.8c-0.48,-0.49 -1.15,-0.78 -1.9,-0.78 -0.74,0 -1.41,0.29 -1.89,0.78l-0.01 0c-0.48,0.48 -0.78,1.16 -0.78,1.9 0,0.74 0.3,1.41 0.78,1.9 0.49,0.48 1.16,0.78 1.9,0.78 0.74,0 1.42,-0.3 1.9,-0.78 0.48,-0.49 0.79,-1.16 0.79,-1.9 0,-0.74 -0.31,-1.41 -0.79,-1.9z"/>
+   <path class="fil19" d="M-321.26 26.17c0.25,0.08 0.5,0.18 0.74,0.28 0.24,0.11 0.47,0.22 0.7,0.34l1.14 -1.14c0.31,-0.31 0.72,-0.47 1.13,-0.47 0.41,0 0.82,0.16 1.14,0.47l2.12 2.12c0.31,0.32 0.47,0.73 0.47,1.14 0,0.4 -0.16,0.81 -0.47,1.13l-1.26 1.25c0.11,0.22 0.2,0.45 0.29,0.68 0.08,0.22 0.15,0.43 0.22,0.65l1.82 0c0.44,0 0.84,0.18 1.13,0.47 0.29,0.29 0.47,0.69 0.47,1.13l0 3c0,0.45 -0.18,0.85 -0.47,1.14 -0.29,0.29 -0.69,0.47 -1.13,0.47l-2.05 0c-0.07,0.19 -0.16,0.39 -0.24,0.58 -0.08,0.18 -0.17,0.35 -0.26,0.52l1.48 1.48c0.31,0.32 0.47,0.73 0.47,1.13 0,0.41 -0.16,0.82 -0.47,1.13l-2.12 2.13c-0.32,0.31 -0.73,0.47 -1.14,0.47 -0.41,0 -0.81,-0.16 -1.13,-0.47l-1.59 -1.59c-0.17,0.07 -0.33,0.15 -0.5,0.21 -0.17,0.07 -0.33,0.13 -0.49,0.18l0 2.27c0,0.44 -0.18,0.84 -0.47,1.13 -0.29,0.29 -0.7,0.47 -1.14,0.47l-3 0c-0.44,0 -0.84,-0.18 -1.13,-0.47 -0.29,-0.29 -0.47,-0.69 -0.47,-1.13l0 -2.27c-0.16,-0.05 -0.33,-0.11 -0.49,-0.18 -0.17,-0.06 -0.34,-0.14 -0.5,-0.21l-1.59 1.59c-0.32,0.31 -0.73,0.47 -1.14,0.47 -0.4,0 -0.81,-0.16 -1.12,-0.47l-2.13 -2.12c-0.31,-0.32 -0.47,-0.73 -0.47,-1.14 0,-0.41 0.16,-0.82 0.47,-1.13l1.48 -1.48c-0.1,-0.17 -0.18,-0.34 -0.26,-0.52 -0.09,-0.19 -0.17,-0.39 -0.24,-0.58l-2.05 0c-0.44,0 -0.84,-0.18 -1.13,-0.47 -0.29,-0.29 -0.47,-0.69 -0.47,-1.14l0 -3c0,-0.44 0.18,-0.84 0.47,-1.13 0.29,-0.29 0.69,-0.47 1.13,-0.47l1.82 0c0.07,-0.22 0.14,-0.43 0.22,-0.64 0.08,-0.24 0.18,-0.47 0.28,-0.69l-1.25 -1.25c-0.31,-0.31 -0.47,-0.73 -0.47,-1.13 0,-0.41 0.16,-0.82 0.47,-1.14l2.12 -2.12c0.31,-0.31 0.73,-0.47 1.13,-0.47 0.41,0 0.83,0.16 1.14,0.47l1.14 1.14c0.23,-0.12 0.46,-0.23 0.7,-0.34 0.24,-0.1 0.49,-0.2 0.74,-0.28l0 -1.59c0,-0.44 0.18,-0.84 0.47,-1.13 0.29,-0.29 0.69,-0.47 1.13,-0.47l3 0c0.44,0 0.85,0.18 1.14,0.47 0.29,0.29 0.47,0.69 0.47,1.13l0 1.59zm-0.06 2.13c-0.39,-0.17 -0.78,-0.3 -1.19,-0.4l-0.77 -0.19 0 -2.72 -2.18 0 0 2.72 -0.76 0.19c-0.41,0.1 -0.81,0.23 -1.2,0.4 -0.39,0.17 -0.76,0.37 -1.11,0.59l-0.69 0.44 -1.97 -1.97 -1.54 1.55 2.02 2.02 -0.38 0.66c-0.19,0.35 -0.36,0.71 -0.51,1.09 -0.14,0.37 -0.25,0.75 -0.33,1.15l-0.16 0.8 -3.01 0 0 2.18 3.11 0 0.21 0.73c0.1,0.36 0.23,0.71 0.38,1.04l0.01 0c0.15,0.34 0.33,0.67 0.53,0.98l0.44 0.68 -2.31 2.3 1.54 1.54 2.36 -2.35 0.67 0.38c0.3,0.17 0.62,0.32 0.94,0.45 0.31,0.13 0.65,0.23 1,0.32l0.76 0.19 0 3.39 2.18 0 0 -3.39 0.77 -0.19c0.35,-0.09 0.68,-0.19 1,-0.32 0.32,-0.13 0.63,-0.28 0.94,-0.45l0.67 -0.38 2.35 2.35 1.54 -1.54 -2.3 -2.3 0.44 -0.68c0.2,-0.31 0.38,-0.64 0.53,-0.98l0 0c0.15,-0.33 0.28,-0.68 0.39,-1.04l0.21 -0.73 3.11 0 0 -2.18 -3.01 0 -0.17 -0.8c-0.08,-0.4 -0.19,-0.78 -0.33,-1.15 -0.14,-0.38 -0.31,-0.74 -0.51,-1.09l-0.37 -0.66 2.01 -2.02 -1.54 -1.55 -1.97 1.97 -0.68 -0.44c-0.35,-0.22 -0.72,-0.42 -1.12,-0.59z"/>
+   <path class="fil20" d="M-341.35 9.9c-0.55,0 -1.01,-0.45 -1.01,-1.01 0,-0.55 0.46,-1 1.01,-1l4.45 0c0.56,0 1.01,0.45 1.01,1 0,0.56 -0.45,1.01 -1.01,1.01l-4.45 0z"/>
+   <path class="fil21" d="M-323.36 39.08c0,0.55 -0.45,1 -1.01,1 -0.55,0 -1,-0.45 -1,-1l0 -3.36c0,-0.55 0.45,-1 1,-1 0.56,0 1.01,0.45 1.01,1l0 3.36z"/>
+  </g>
+  <rect class="fil0 str0" x="469.28" y="-446.9" width="136" height="107"/>
+  <g id="_2007226088720">
+   <ellipse class="fil2" cx="-258.21" cy="-182.23" rx="0.82" ry="0.8"/>
+   <ellipse class="fil2" cx="-254.59" cy="-182.23" rx="0.82" ry="0.8"/>
+   <ellipse class="fil2" cx="-250.97" cy="-182.23" rx="0.82" ry="0.8"/>
+   <g>
+    <path class="fil1" d="M-220.18 -179.18c-0.54,0 -0.98,-0.43 -0.98,-0.96 0,-0.53 0.44,-0.97 0.98,-0.97l1.6 0c0.83,0 1.58,0.33 2.13,0.86 0.54,0.54 0.88,1.27 0.88,2.08l0 31.41c0,0.81 -0.34,1.54 -0.88,2.08 -0.55,0.53 -1.3,0.86 -2.13,0.86l-47.99 0c-0.82,0 -1.58,-0.33 -2.12,-0.86 -0.55,-0.54 -0.88,-1.27 -0.88,-2.08l0 -31.41c0,-0.81 0.33,-1.54 0.88,-2.08 0.54,-0.53 1.3,-0.86 2.12,-0.86l1.78 0c0.54,0 0.99,0.44 0.99,0.97 0,0.53 -0.45,0.96 -0.99,0.96l-1.78 0c-0.28,0 -0.54,0.12 -0.72,0.3 -0.19,0.18 -0.31,0.43 -0.31,0.71l0 31.41c0,0.28 0.12,0.53 0.31,0.71 0.18,0.19 0.44,0.3 0.72,0.3l47.99 0c0.28,0 0.54,-0.11 0.73,-0.3 0.18,-0.18 0.3,-0.43 0.3,-0.71l0 -31.41c0,-0.28 -0.12,-0.53 -0.3,-0.71 -0.19,-0.18 -0.45,-0.3 -0.73,-0.3l-1.6 0z"/>
+    <path class="fil1" d="M-252.79 -139l20.44 0c0.81,0 1.54,0.32 2.08,0.84l0 0.01c0.53,0.52 0.87,1.24 0.87,2.03l0 2.26c0,0.53 -0.44,0.97 -0.99,0.97l-24.37 0c-0.54,0 -0.98,-0.44 -0.98,-0.97l0 -2.26c0,-0.79 0.33,-1.51 0.86,-2.04 0.54,-0.52 1.27,-0.84 2.09,-0.84zm20.44 1.93l-20.44 0c-0.27,0 -0.52,0.11 -0.69,0.28 -0.18,0.17 -0.29,0.41 -0.29,0.67l0 1.3 22.39 0 0 -1.3c0,-0.26 -0.11,-0.5 -0.28,-0.67 -0.18,-0.18 -0.42,-0.28 -0.69,-0.28z"/>
+    <path class="fil1" d="M-248.37 -142.52c0.26,-0.47 0.86,-0.63 1.34,-0.37 0.47,0.25 0.64,0.84 0.38,1.3 -0.01,0.01 -1.48,2.58 -3.74,4.31 -0.43,0.33 -1.05,0.25 -1.39,-0.16 -0.33,-0.42 -0.25,-1.03 0.17,-1.35 1.96,-1.49 3.23,-3.73 3.24,-3.73z"/>
+    <path class="fil1" d="M-238.91 -141.59c-0.26,-0.46 -0.09,-1.05 0.38,-1.3 0.48,-0.26 1.08,-0.1 1.34,0.37 0.01,0 1.28,2.24 3.24,3.73 0.42,0.32 0.5,0.93 0.17,1.35 -0.34,0.41 -0.96,0.49 -1.39,0.16 -2.26,-1.73 -3.73,-4.3 -3.74,-4.31z"/>
+    <path class="fil1" d="M-260.85 -155.39c0,0.53 -0.44,0.96 -0.99,0.96 -0.54,0 -0.98,-0.43 -0.98,-0.96l0 -28.61c0,-0.79 0.33,-1.52 0.87,-2.04 0.53,-0.53 1.27,-0.85 2.09,-0.85l34.57 0c0.82,0 1.56,0.32 2.1,0.85 0.53,0.52 0.87,1.24 0.87,2.04l0 28.61c0,0.53 -0.45,0.96 -0.99,0.96 -0.55,0 -0.99,-0.43 -0.99,-0.96l0 -28.61c0,-0.26 -0.11,-0.5 -0.29,-0.68 -0.18,-0.17 -0.43,-0.28 -0.7,-0.28l-34.57 0c-0.27,0 -0.52,0.11 -0.7,0.28 -0.18,0.17 -0.29,0.42 -0.29,0.68l0 28.61z"/>
+    <polygon class="fil1" points="-261.84,-179.64 -223.31,-179.64 -223.31,-177.71 -261.84,-177.71 "/>
+    <path class="fil1" d="M-238.79 -181.11c-0.54,0 -0.98,-0.43 -0.98,-0.96 0,-0.53 0.44,-0.97 0.98,-0.97l12.02 0c0.55,0 0.99,0.44 0.99,0.97 0,0.53 -0.44,0.96 -0.99,0.96l-12.02 0z"/>
+    <path class="fil1" d="M-249.78 -161.33c0.32,0.31 0.33,0.82 0.01,1.14 -0.31,0.31 -0.83,0.32 -1.16,0.01l-4.76 -4.5c-0.33,-0.31 -0.33,-0.82 -0.02,-1.13 1.56,-1.53 3.2,-3.02 4.78,-4.52 0.33,-0.31 0.85,-0.3 1.16,0.01 0.32,0.32 0.31,0.83 -0.01,1.14l-4.16 3.93 4.16 3.92z"/>
+    <path class="fil1" d="M-234.57 -160.21c-0.33,0.3 -0.85,0.3 -1.16,-0.02 -0.32,-0.32 -0.31,-0.82 0.01,-1.13l4.16 -3.93 -4.16 -3.93c-0.32,-0.31 -0.33,-0.82 -0.01,-1.13 0.31,-0.32 0.83,-0.33 1.16,-0.02 1.59,1.5 3.22,3 4.78,4.52 0.32,0.32 0.31,0.83 -0.01,1.13l-4.77 4.51z"/>
+    <path class="fil1" d="M-240.88 -173.4c0.18,-0.5 0.74,-0.76 1.25,-0.58 0.52,0.17 0.79,0.72 0.61,1.22l-5.95 16.3c-0.18,0.5 -0.74,0.76 -1.25,0.59 -0.52,-0.18 -0.79,-0.73 -0.61,-1.23l5.95 -16.3z"/>
+    <polygon class="fil1" points="-268.92,-152.82 -216.23,-152.82 -216.23,-150.89 -268.92,-150.89 "/>
+    <path class="fil1" d="M-244.88 -147.36c-0.54,0 -0.99,-0.43 -0.99,-0.96 0,-0.53 0.45,-0.97 0.99,-0.97l4.61 0c0.55,0 0.99,0.44 0.99,0.97 0,0.53 -0.44,0.96 -0.99,0.96l-4.61 0z"/>
+   </g>
+  </g>
+  <rect class="fil22" x="945.5" y="-316.5" width="93" height="93"/>
+  <path class="fil1" d="M-1220.23 23.73l103.23 0c3.66,0 7,1.5 9.43,3.92l0.01 0.01c2.42,2.43 3.92,5.77 3.92,9.43l0 133.27c-13.1,11.78 -26.19,23.57 -39.28,35.37l-77.31 0c-3.67,0 -7.01,-1.51 -9.43,-3.93l-0.01 -0.01c-2.42,-2.42 -3.93,-5.76 -3.93,-9.43l0 -155.27c0,-3.67 1.51,-7.01 3.93,-9.43l0.01 -0.01c2.42,-2.42 5.76,-3.92 9.43,-3.92zm103.23 5l-103.23 0c-2.3,0 -4.39,0.94 -5.91,2.45 -1.51,1.52 -2.45,3.61 -2.45,5.91l0 155.27c0,2.3 0.94,4.4 2.45,5.91 1.52,1.52 3.61,2.46 5.91,2.46l75.4 0 36.19 -32.59 0 -131.05c0,-2.3 -0.94,-4.39 -2.45,-5.9l-0.01 -0.01c-1.51,-1.51 -3.6,-2.45 -5.9,-2.45z"/>
+  <path class="fil1" d="M-1145.59 202.99l0 -22.63c0,-3.67 1.5,-7.01 3.92,-9.44l0.01 -0.01c2.42,-2.42 5.76,-3.92 9.43,-3.92l12.22 0 0 5 -12.22 0c-2.3,0 -4.39,0.94 -5.91,2.45 -1.51,1.52 -2.45,3.61 -2.45,5.92l0 22.63 -5 0z"/>
+  <g id="_2007226076720">
+   <polygon class="fil1" points="-1139.51,67.73 -1139.51,103.99 -1168.01,118 -1196.51,103.99 -1196.51,67.73 -1191.5,67.73 -1191.5,100.9 -1168.01,112.46 -1144.51,100.9 -1144.51,67.73 "/>
+   <path class="fil1" d="M-1192.91 64.51l24.9 -12.72 29.25 14.94 -29.25 14.93 -29.24 -14.93 4.34 -2.22zm24.9 -7.13l-18.3 9.35 18.3 9.34 18.31 -9.34 -18.31 -9.35z"/>
+   <polygon class="fil1" points="-1181.07,72.29 -1157.11,58.52 -1154.63,62.83 -1178.59,76.61 "/>
+   <polygon class="fil1" points="-1166.23,80.01 -1166.23,103.73 -1171.24,103.73 -1171.24,80.01 "/>
+  </g>
+  <rect class="fil2" x="-1187.01" y="41.73" width="37.5" height="5.5"/>
+  <rect class="fil2" x="-1207.76" y="123.98" width="78.75" height="5.5"/>
+  <rect class="fil2" x="-1207.76" y="140.02" width="78.75" height="5.5"/>
+  <rect class="fil2" x="-1207.76" y="155.32" width="78.75" height="5.5"/>
+  <rect class="fil2" x="-1207.76" y="170.37" width="51.75" height="5.5"/>
+  <rect class="fil0 str1" x="-1469.91" y="28.83" width="176.5" height="39"/>
+  <line class="fil0 str1" x1="-1439.41" y1="55.83" x2="-1359.41" y2= "55.83" />
+  <circle class="fil2" cx="-1348.66" cy="55.58" r="3.25"/>
+  <circle class="fil0 str2" cx="-1317.91" cy="47.83" r="8.5"/>
+  <line class="fil0 str3" x1="-1312.41" y1="53.83" x2="-1306.61" y2= "59.63" />
+  <rect class="fil0 str1" x="-1469.91" y="78.83" width="109" height="72.5"/>
+  <rect class="fil0 str1" x="-1349.41" y="78.83" width="56" height="72.5"/>
+  <line class="fil0 str4" x1="-1337.77" y1="92.83" x2="-1305.05" y2= "92.83" />
+  <line class="fil0 str4" x1="-1337.77" y1="106.83" x2="-1305.05" y2= "106.83" />
+  <line class="fil0 str4" x1="-1337.77" y1="121.83" x2="-1305.05" y2= "121.83" />
+  <line class="fil0 str4" x1="-1322.99" y1="136.31" x2="-1305.05" y2= "136.31" />
+  <circle class="fil2" cx="-1336.16" cy="136.08" r="3.25"/>
+  <polyline class="fil0 str1" points="-1469.91,151.33 -1439.41,117.83 -1421.41,138.83 "/>
+  <polyline class="fil0 str1" points="-1429.63,150.83 -1395.22,107.33 -1360.91,151.33 "/>
+  <line class="fil0 str5" x1="-1408.61" y1="124.26" x2="-1383.91" y2= "124.26" />
+  <line class="fil0 str1" x1="-1415.48" y1="135.33" x2="-1396.67" y2= "135.33" />
+  <circle class="fil0 str5" cx="-1424.41" cy="99.83" r="9.5"/>
+  <rect class="fil0 str1" x="-1469.91" y="161.94" width="56" height="39"/>
+  <rect class="fil0 str1" x="-1402.41" y="161.94" width="109" height="39"/>
+  <line class="fil0 str4" x1="-1373.91" y1="181.06" x2="-1311.3" y2= "181.06" />
+  <circle class="fil2" cx="-1386.41" cy="180.83" r="3.25"/>
+  <g id="_2007350853680">
+   <polygon class="fil0 str4" points="-1403.76,251.92 -1378.57,268.75 -1353.26,252.1 -1342.77,280.52 -1312.5,281.92 -1320.73,311.08 -1297.06,330 -1320.85,348.76 -1312.83,377.98 -1343.1,379.17 -1353.79,407.53 -1378.98,390.7 -1404.29,407.35 -1414.78,378.93 -1445.05,377.53 -1436.82,348.37 -1460.49,329.45 -1436.7,310.69 -1444.72,281.47 -1414.45,280.28 "/>
+   <circle class="fil0 str2" cx="-1379.23" cy="329.27" r="42.55"/>
+   <polyline class="fil0 str3" points="-1398.91,327.32 -1385.91,340.32 -1360.91,315.32 "/>
+  </g>
+  <path class="fil0 str2" d="M-1195.01 264.46l0 0c24.69,0 44.89,20.2 44.89,44.9l0 63.78c0,3.95 -3.23,7.18 -7.18,7.18l-8.72 0 0 22.73c0,5.77 -4.73,10.5 -10.5,10.5l0 0c-5.78,0 -10.5,-4.73 -10.5,-10.5l0 -22.73 -15.98 0 0 22.73c0,5.77 -4.73,10.5 -10.5,10.5l0 0c-5.78,0 -10.5,-4.73 -10.5,-10.5l0 -22.73 -8.73 0c-3.95,0 -7.18,-3.23 -7.18,-7.18l0 -63.78c0,-24.7 20.2,-44.9 44.9,-44.9z"/>
+  <rect class="fil0 str2" x="-1260.94" y="306.32" width="21" height="61" rx="10.5" ry="14.08"/>
+  <rect class="fil0 str2" x="-1150.18" y="306.32" width="21" height="61" rx="10.5" ry="14.08"/>
+  <rect class="fil2" x="-1238.41" y="303.79" width="88.29" height="6.54"/>
+  <rect class="fil2" x="-1216.91" y="285.32" width="7" height="7"/>
+  <rect class="fil2" x="-1180.93" y="285.32" width="7" height="7"/>
+  <line class="fil0 str2" x1="-1165.91" y1="255.32" x2="-1174.6" y2= "269.4" />
+  <line class="fil0 str2" x1="-1225.92" y1="255.32" x2="-1217.23" y2= "269.4" />
+  <g id="_2007350818160">
+   <path class="fil23" d="M-198 204.72c0,-1.11 0.9,-2 2,-2 1.1,0 2,0.89 2,2l0 8.54c0,1.03 -0.42,1.97 -1.1,2.64 -0.67,0.68 -1.61,1.1 -2.64,1.1l-26.48 0c-1.02,0 -1.96,-0.42 -2.64,-1.1 -0.68,-0.67 -1.1,-1.61 -1.1,-2.64l0 -7.57c0,-1.1 0.89,-2 2,-2 1.1,0 2,0.9 2,2l0 7.31 25.96 0 0 -8.28zm-25.96 -6.26c0,1.11 -0.9,2 -2,2 -1.11,0 -2,-0.89 -2,-2l0 -36.22c0,-1.02 0.42,-1.96 1.1,-2.63 0.67,-0.69 1.61,-1.11 2.64,-1.11l26.48 0c1.03,0 1.97,0.42 2.64,1.1l0.15 0.16c0.59,0.67 0.95,1.54 0.95,2.48l0 17.26c0,1.11 -0.9,2 -2,2 -1.1,0 -2,-0.89 -2,-2l0 -17 -25.96 0 0 35.96z"/>
+   <polygon class="fil24" points="-225.96,165.91 -196,165.91 -196,168.91 -225.96,168.91 "/>
+   <polygon class="fil25" points="-225.96,204.79 -196,204.79 -196,207.79 -225.96,207.79 "/>
+   <path class="fil26" d="M-215.12 212.32c-0.83,0 -1.5,-0.67 -1.5,-1.5 0,-0.83 0.67,-1.5 1.5,-1.5l8.28 0c0.83,0 1.5,0.67 1.5,1.5 0,0.83 -0.67,1.5 -1.5,1.5l-8.28 0z"/>
+   <path class="fil27" d="M-216.09 179.96c0.59,0.57 0.6,1.52 0.03,2.11 -0.58,0.59 -1.52,0.6 -2.11,0.03l-3.78 -3.66c-0.59,-0.57 -0.61,-1.52 -0.03,-2.11 1.24,-1.24 2.54,-2.46 3.81,-3.69 0.59,-0.57 1.53,-0.56 2.11,0.03 0.57,0.59 0.56,1.54 -0.03,2.12l-2.67 2.58 2.67 2.59z"/>
+   <path class="fil28" d="M-203.53 182.1c-0.59,0.57 -1.54,0.56 -2.11,-0.03 -0.58,-0.59 -0.57,-1.54 0.02,-2.11l2.67 -2.59 -2.67 -2.58c-0.59,-0.58 -0.6,-1.53 -0.02,-2.12 0.57,-0.59 1.52,-0.6 2.11,-0.03 1.26,1.23 2.56,2.45 3.81,3.69 0.57,0.59 0.56,1.54 -0.03,2.11l-3.78 3.66z"/>
+   <path class="fil29" d="M-210.28 170.47c0.3,-0.77 1.17,-1.15 1.94,-0.84 0.77,0.3 1.15,1.17 0.84,1.94l-5.22 13.23c-0.31,0.77 -1.18,1.15 -1.95,0.84 -0.77,-0.3 -1.14,-1.17 -0.84,-1.94l5.23 -13.23z"/>
+   <path class="fil30" d="M-195.65 186.33c1.46,0 2.8,0.59 3.76,1.56 0.97,0.96 1.57,2.3 1.57,3.77 0,1.46 -0.6,2.8 -1.56,3.76 -0.97,0.97 -2.31,1.57 -3.77,1.57 -1.47,0 -2.81,-0.6 -3.77,-1.56 -0.97,-0.97 -1.56,-2.31 -1.56,-3.77 0,-1.47 0.59,-2.81 1.56,-3.77 0.96,-0.97 2.3,-1.56 3.77,-1.56zm1.65 3.68c-0.42,-0.42 -1,-0.68 -1.65,-0.68 -0.65,0 -1.23,0.26 -1.65,0.68 -0.42,0.42 -0.68,1 -0.68,1.65 0,0.64 0.26,1.23 0.68,1.65 0.42,0.42 1,0.68 1.65,0.68 0.65,0 1.23,-0.26 1.65,-0.68 0.42,-0.42 0.68,-1.01 0.68,-1.65 0,-0.65 -0.26,-1.23 -0.68,-1.65z"/>
+   <path class="fil31" d="M-191.97 181.77l0.95 0.4 0.95 -0.95c0.41,-0.41 0.96,-0.62 1.5,-0.62 0.54,0 1.09,0.21 1.5,0.62l2.2 2.21c0.41,0.41 0.62,0.95 0.62,1.49 0,0.54 -0.21,1.09 -0.62,1.5l-1.08 1.08 0.31 0.83 1.56 0c0.59,0 1.12,0.24 1.5,0.62 0.38,0.38 0.62,0.91 0.62,1.5l0 3.11c0,0.59 -0.24,1.12 -0.62,1.5 -0.38,0.38 -0.91,0.62 -1.5,0.62l-1.81 0 -0.28 0.61 1.3 1.3c0.41,0.41 0.62,0.96 0.62,1.5 0,0.54 -0.21,1.08 -0.62,1.5l-2.2 2.2c-0.41,0.41 -0.96,0.62 -1.5,0.62 -0.54,0 -1.09,-0.21 -1.5,-0.62l-1.43 -1.43 -0.47 0.19 0 2.03c0,0.58 -0.24,1.12 -0.63,1.5 -0.38,0.38 -0.91,0.62 -1.49,0.62l-3.12 0c-0.58,0 -1.12,-0.24 -1.5,-0.62 -0.38,-0.38 -0.62,-0.92 -0.62,-1.5l0 -2.03 -0.47 -0.19 -1.44 1.43c-0.41,0.41 -0.95,0.62 -1.49,0.62 -0.54,0 -1.09,-0.21 -1.5,-0.62l-2.21 -2.2c-0.41,-0.42 -0.62,-0.96 -0.62,-1.5 0,-0.54 0.21,-1.09 0.62,-1.5l1.3 -1.3 -0.27 -0.61 -1.82 0c-0.58,0 -1.11,-0.24 -1.49,-0.62 -0.39,-0.38 -0.63,-0.91 -0.63,-1.5l0 -3.11c0,-0.59 0.24,-1.12 0.63,-1.5 0.38,-0.38 0.91,-0.62 1.49,-0.62l1.56 0 0.32 -0.83 -1.09 -1.08c-0.41,-0.41 -0.62,-0.96 -0.62,-1.5 0,-0.54 0.21,-1.08 0.62,-1.49l2.21 -2.21c0.41,-0.41 0.96,-0.62 1.5,-0.62 0.54,0 1.08,0.21 1.49,0.62l0.95 0.95 0.46 -0.21 0.5 -0.19 0 -1.34c0,-0.58 0.24,-1.12 0.62,-1.5 0.38,-0.38 0.92,-0.62 1.5,-0.62l3.12 0c0.58,0 1.11,0.24 1.49,0.62 0.39,0.38 0.63,0.92 0.63,1.5l0 1.34zm-0.69 2.94c-0.36,-0.16 -0.75,-0.29 -1.17,-0.39l-1.14 -0.29 0 -2.72 -1.36 0 0 2.72 -1.14 0.29c-0.42,0.1 -0.81,0.23 -1.17,0.39 -0.39,0.17 -0.76,0.37 -1.1,0.58l-1.01 0.66 -1.98 -1.99 -0.96 0.96 2.01 2.02 -0.56 0.99c-0.18,0.33 -0.35,0.69 -0.5,1.07 -0.13,0.36 -0.24,0.74 -0.32,1.13l-0.25 1.2 -3.04 0 0 1.35 3.12 0 0.31 1.09c0.1,0.34 0.23,0.68 0.38,1.02 0.15,0.32 0.32,0.64 0.52,0.95l0.66 1.02 -2.33 2.33 0.96 0.96 2.36 -2.37 1 0.56c0.3,0.18 0.61,0.33 0.92,0.45 0.33,0.12 0.66,0.23 0.98,0.31l1.14 0.28 0 3.42 1.36 0 0 -3.42 1.14 -0.28c0.32,-0.08 0.65,-0.19 0.98,-0.32 0.3,-0.11 0.61,-0.26 0.92,-0.44l0.99 -0.56 2.37 2.37 0.96 -0.96 -2.33 -2.33 0.65 -1.02c0.2,-0.31 0.38,-0.63 0.53,-0.95 0.15,-0.34 0.28,-0.68 0.37,-1.02l0.32 -1.09 3.11 0 0 -1.35 -3.04 0 -0.24 -1.2c-0.08,-0.39 -0.19,-0.77 -0.33,-1.13 -0.14,-0.38 -0.31,-0.74 -0.5,-1.07l-0.56 -0.99 2.02 -2.02 -0.96 -0.96 -1.98 1.99 -1.02 -0.66c-0.34,-0.21 -0.71,-0.41 -1.09,-0.58z"/>
+   <path class="fil32" d="M-213.29 165.25c-0.83,0 -1.5,-0.5 -1.5,-1.11 0,-0.62 0.67,-1.12 1.5,-1.12l4.62 0c0.83,0 1.5,0.5 1.5,1.12 0,0.61 -0.67,1.11 -1.5,1.11l-4.62 0z"/>
+  </g>
+  <g id="_2007358501776">
+   <path class="fil0 str3" d="M-909.89 273.32l4.85 0c3.37,0 6.13,2.76 6.13,6.13l0 97.74c0,3.37 -2.76,6.13 -6.13,6.13l-145.74 0c-3.37,0 -6.13,-2.76 -6.13,-6.13l0 -97.74c0,-3.37 2.76,-6.13 6.13,-6.13l5.39 0"/>
+   <path class="fil0 str3" d="M-1008.95 404.32l62.08 0c3.28,0 5.96,2.68 5.96,5.96l0 7.04 -74 0 0 -7.04c0,-3.28 2.68,-5.96 5.96,-5.96z"/>
+   <path class="fil0 str3" d="M-992.91 391.82c0,0 -4.18,7.5 -10.59,12.5"/>
+   <path class="fil0 str3" d="M-964.16 391.82c0,0 4.18,7.5 10.59,12.5"/>
+   <path class="fil0 str3" d="M-1036.41 350.32l0 -89c0,-3.3 2.7,-6 6,-6l105 0c3.3,0 6,2.7 6,6l0 89"/>
+   <line class="fil0 str2" x1="-1036.41" y1="277.87" x2="-919.41" y2= "277.87" />
+   <circle class="fil33 str6" cx="-1025.41" cy="266.82" r="2.5"/>
+   <circle class="fil33 str6" cx="-1014.41" cy="266.82" r="2.5"/>
+   <circle class="fil33 str6" cx="-1003.41" cy="266.82" r="2.5"/>
+   <line class="fil0 str3" x1="-966.41" y1="267.32" x2="-929.91" y2= "267.32" />
+   <g>
+    <polyline class="fil0 str1" points="-1001.54,333.65 -1008.77,326.65 -1016.01,319.64 -1008.77,312.64 -1001.54,305.63 "/>
+    <polyline class="fil0 str1" points="-955.35,333.54 -948.11,326.53 -940.87,319.53 -948.11,312.52 -955.35,305.52 "/>
+    <line class="fil0 str3" x1="-969.95" y1="295.31" x2="-988" y2= "346" />
+   </g>
+   <line class="fil0 str2" x1="-1057.91" y1="361.32" x2="-897.91" y2= "361.32" />
+   <line class="fil0 str3" x1="-984.91" y1="372.32" x2="-970.91" y2= "372.32" />
+  </g>
+  <g id="_2007358498768">
+   <path class="fil34" d="M236.26 12.01l30.63 0c1.09,0 2.08,0.45 2.8,1.16l0 0.01c0.72,0.72 1.17,1.71 1.17,2.8l0 39.54c-3.89,3.49 -7.78,6.99 -11.66,10.49l-22.94 0c-1.09,0 -2.08,-0.45 -2.8,-1.17l0 0c-0.72,-0.72 -1.16,-1.71 -1.16,-2.8l0 -46.06c0,-1.09 0.44,-2.08 1.16,-2.8l0 -0.01c0.72,-0.71 1.71,-1.16 2.8,-1.16zm30.63 1.48l-30.63 0c-0.68,0 -1.3,0.28 -1.75,0.73 -0.45,0.45 -0.73,1.07 -0.73,1.76l0 46.06c0,0.69 0.28,1.31 0.73,1.76 0.45,0.45 1.07,0.73 1.75,0.73l22.37 0 10.74 -9.67 0 -38.88c0,-0.69 -0.28,-1.31 -0.72,-1.76l-0.01 0c-0.44,-0.45 -1.06,-0.73 -1.75,-0.73z"/>
+   <path class="fil34" d="M258.41 65.2l0 -6.72c0,-1.09 0.44,-2.08 1.16,-2.8l0 0c0.72,-0.72 1.71,-1.16 2.8,-1.16l3.63 0 0 1.48 -3.63 0c-0.68,0 -1.3,0.28 -1.75,0.73 -0.45,0.45 -0.73,1.07 -0.73,1.75l0 6.72 -1.48 0z"/>
+   <polygon class="fil34" points="260.21,25.06 260.21,35.82 251.76,39.98 243.3,35.82 243.3,25.06 244.79,25.06 244.79,34.91 251.76,38.34 258.73,34.91 258.73,25.06 "/>
+   <path class="fil34" d="M244.37 24.11l7.39 -3.77 8.68 4.43 -8.68 4.43 -8.68 -4.43 1.29 -0.66zm7.39 -2.11l-5.43 2.77 5.43 2.77 5.43 -2.77 -5.43 -2.77z"/>
+   <polygon class="fil34" points="247.88,26.42 254.99,22.33 255.73,23.61 248.62,27.7 "/>
+   <polygon class="fil34" points="252.28,28.71 252.28,35.75 250.8,35.75 250.8,28.71 "/>
+   <rect class="fil35" x="246.12" y="17.35" width="11.13" height="1.63"/>
+   <rect class="fil35" x="239.96" y="41.75" width="23.37" height="1.63"/>
+   <rect class="fil35" x="239.96" y="46.51" width="23.37" height="1.63"/>
+   <rect class="fil35" x="239.96" y="51.05" width="23.37" height="1.63"/>
+   <rect class="fil35" x="239.96" y="55.52" width="15.35" height="1.63"/>
+  </g>
+  <g style="clip-path:url(#id6)">
+   <image x="233" y="-35" width="50" height="50" xlink:href="2.svg_Images\2.svg_ImgID7.png"/>
+  </g>
+  <g id="_2007358496720">
+   <rect class="fil0" x="-88" y="-79" width="54" height="54"/>
+   <g>
+    <path class="fil36" d="M-67.58 -77.43l6.65 4.44 6.76 -4.45c0.86,-0.56 2.01,-0.32 2.57,0.53 0.08,0.12 0.14,0.25 0.19,0.38l2.81 7.59 8.08 0.37c1.02,0.05 1.81,0.91 1.77,1.94 -0.01,0.14 -0.03,0.28 -0.07,0.42l-2.19 7.8 6.31 5.05c0.8,0.64 0.93,1.8 0.29,2.6 -0.09,0.11 -0.19,0.21 -0.3,0.3l-6.35 5.02 2.14 7.8c0.27,0.99 -0.31,2.01 -1.3,2.28 -0.14,0.04 -0.28,0.06 -0.41,0.06l-8.09 0.32 -2.85 7.58c-0.36,0.96 -1.44,1.44 -2.4,1.08 -0.16,-0.06 -0.32,-0.14 -0.45,-0.25l-6.65 -4.44 -6.76 4.45c-0.86,0.56 -2.01,0.32 -2.57,-0.53 -0.08,-0.12 -0.14,-0.25 -0.19,-0.38l-2.81 -7.59 -8.08 -0.37c-1.02,-0.05 -1.81,-0.91 -1.77,-1.94 0.01,-0.14 0.03,-0.28 0.07,-0.42l2.19 -7.8 -6.31 -5.05c-0.8,-0.64 -0.93,-1.8 -0.29,-2.6 0.09,-0.12 0.19,-0.22 0.3,-0.3l6.35 -5.02 -2.14 -7.8c-0.27,-0.99 0.31,-2.01 1.3,-2.28 0.14,-0.04 0.28,-0.06 0.41,-0.06l8.09 -0.32 2.85 -7.58c0.36,-0.96 1.43,-1.44 2.39,-1.08 0.17,0.06 0.33,0.14 0.46,0.25zm5.61 8.21l-5.8 -3.88 -2.47 6.54c-0.25,0.67 -0.9,1.17 -1.66,1.2l-6.99 0.27 1.81 6.61c0.27,0.73 0.05,1.58 -0.6,2.08l-5.48 4.33 5.34 4.27c0.64,0.43 0.97,1.25 0.74,2.04l-1.89 6.72 6.87 0.32c0.76,-0.01 1.49,0.46 1.77,1.22l2.41 6.55 5.77 -3.79c0.61,-0.44 1.46,-0.48 2.12,-0.04l5.8 3.88 2.47 -6.54c0.25,-0.67 0.89,-1.17 1.66,-1.2l6.99 -0.27 -1.82 -6.61c-0.26,-0.73 -0.04,-1.58 0.61,-2.08l5.48 -4.33 -5.34 -4.27c-0.64,-0.44 -0.97,-1.25 -0.75,-2.04l1.9 -6.73 -6.87 -0.31c-0.76,0.01 -1.49,-0.46 -1.77,-1.22l-2.41 -6.55 -5.77 3.79c-0.61,0.44 -1.46,0.48 -2.12,0.04z"/>
+    <path class="fil37" d="M-61.14 -67.09c4.13,0 7.87,1.67 10.58,4.38 2.7,2.7 4.38,6.44 4.38,10.57 0,4.13 -1.68,7.87 -4.38,10.58 -2.71,2.7 -6.45,4.38 -10.58,4.38 -4.13,0 -7.87,-1.68 -10.57,-4.38 -2.71,-2.71 -4.38,-6.45 -4.38,-10.58 0,-4.13 1.67,-7.87 4.38,-10.57 2.7,-2.71 6.44,-4.38 10.57,-4.38zm7.94 7.01c-2.03,-2.03 -4.84,-3.29 -7.94,-3.29 -3.1,0 -5.91,1.26 -7.94,3.29 -2.03,2.03 -3.29,4.84 -3.29,7.94 0,3.1 1.26,5.91 3.29,7.94 2.03,2.03 4.84,3.29 7.94,3.29 3.1,0 5.91,-1.26 7.94,-3.29 2.03,-2.03 3.29,-4.84 3.29,-7.94 0,-3.1 -1.26,-5.91 -3.29,-7.94z"/>
+    <path class="fil38" d="M-68.51 -51.42c-0.73,-0.73 -0.73,-1.91 0,-2.64 0.72,-0.72 1.9,-0.72 2.63,0l2.68 2.69 6.38 -6.38c0.73,-0.73 1.91,-0.73 2.63,0 0.73,0.73 0.73,1.91 0,2.63l-7.69 7.7c-0.73,0.73 -1.91,0.73 -2.63,0l-4 -4z"/>
+   </g>
+  </g>
+  <rect class="fil0" x="-53" y="-151" width="54" height="54"/>
+  <polygon class="fil0 str7" points="146.1,5.79 154.43,11.35 162.79,5.85 166.25,15.24 176.26,15.7 173.54,25.34 181.36,31.59 173.5,37.79 176.15,47.44 166.14,47.84 162.61,57.21 154.29,51.64 145.93,57.15 142.46,47.76 132.46,47.29 135.18,37.66 127.36,31.41 135.22,25.21 132.57,15.55 142.57,15.16 "/>
+  <circle class="fil0 str8" cx="154.21" cy="31.35" r="14.06"/>
+  <polyline class="fil0 str7" points="147.7,30.7 152,35 160.26,26.74 "/>
+  <g id="_2007358493840">
+   <path class="fil39" d="M97.89 -237.1l30.63 0c1.32,0 2.57,0.53 3.5,1.46 0.94,0.93 1.46,2.19 1.46,3.51l0 39.98 -0.33 0.3c-3.89,3.5 -7.77,7 -11.65,10.5l-0.29 0.25 -23.32 0c-1.32,0 -2.57,-0.52 -3.5,-1.45 -0.94,-0.94 -1.46,-2.19 -1.46,-3.51l0 -46.07c0,-1.32 0.52,-2.57 1.45,-3.51 0.93,-0.93 2.19,-1.46 3.51,-1.46zm21.99 52.52l10.12 -9.11 0 -38.44c0,-0.39 -0.16,-0.77 -0.43,-1.05 -0.28,-0.28 -0.66,-0.43 -1.05,-0.43l-30.63 0c-0.39,0 -0.77,0.15 -1.05,0.43 -0.28,0.28 -0.43,0.66 -0.43,1.05l0 46.07c0,0.39 0.15,0.77 0.43,1.05 0.28,0.27 0.66,0.43 1.05,0.43l21.99 0z"/>
+  </g>
+  <path class="fil1" d="M97.89 -236.1l30.63 0c1.08,0 2.08,0.45 2.8,1.17l0 0c0.72,0.72 1.16,1.71 1.16,2.8l0 39.54c-3.88,3.49 -7.77,6.99 -11.65,10.49l-22.94 0c-1.09,0 -2.08,-0.44 -2.8,-1.16l0 0c-0.72,-0.72 -1.17,-1.71 -1.17,-2.8l0 -46.07c0,-1.09 0.45,-2.08 1.17,-2.8l0 0c0.72,-0.72 1.71,-1.17 2.8,-1.17zm30.63 1.49l-30.63 0c-0.68,0 -1.3,0.28 -1.75,0.72 -0.45,0.45 -0.73,1.08 -0.73,1.76l0 46.07c0,0.68 0.28,1.3 0.73,1.75 0.45,0.45 1.07,0.73 1.75,0.73l22.37 0 10.74 -9.67 0 -38.88c0,-0.68 -0.28,-1.31 -0.73,-1.75l0 -0.01c-0.45,-0.44 -1.07,-0.72 -1.75,-0.72z"/>
+  <path class="fil1" d="M120.03 -182.91l0 -6.71c0,-1.09 0.45,-2.08 1.17,-2.8l0 -0.01c0.72,-0.71 1.71,-1.16 2.8,-1.16l3.63 0 0 1.48 -3.63 0c-0.68,0 -1.3,0.28 -1.75,0.73 -0.45,0.45 -0.73,1.07 -0.73,1.76l0 6.71 -1.49 0z"/>
+  <polygon class="fil1" points="121.84,-223.04 121.84,-212.28 113.38,-208.12 104.93,-212.28 104.93,-223.04 106.41,-223.04 106.41,-213.2 113.38,-209.77 120.36,-213.2 120.36,-223.04 "/>
+  <path class="fil1" d="M105.99 -224l7.39 -3.77 8.68 4.43 -8.68 4.43 -8.67 -4.43 1.28 -0.66zm7.39 -2.11l-5.42 2.77 5.42 2.78 5.44 -2.78 -5.44 -2.77z"/>
+  <polygon class="fil1" points="109.51,-221.69 116.62,-225.77 117.35,-224.49 110.25,-220.41 "/>
+  <polygon class="fil1" points="113.91,-219.4 113.91,-212.36 112.43,-212.36 112.43,-219.4 "/>
+  <rect class="fil2" x="107.75" y="-230.76" width="11.13" height="1.63"/>
+  <rect class="fil2" x="101.59" y="-206.35" width="23.37" height="1.63"/>
+  <rect class="fil2" x="101.59" y="-201.59" width="23.37" height="1.63"/>
+  <rect class="fil2" x="101.59" y="-197.05" width="23.37" height="1.63"/>
+  <rect class="fil2" x="101.59" y="-192.59" width="15.35" height="1.63"/>
+  <g id="_2007358485072">
+   <path class="fil40" d="M-148.18 0l29.9 0c1.19,0 2.28,0.49 3.06,1.27 0.78,0.79 1.27,1.87 1.27,3.06l0 39.26 -11.37 10.41 -22.86 0c-1.19,0 -2.28,-0.49 -3.06,-1.27 -0.78,-0.78 -1.27,-1.87 -1.27,-3.05l0 -45.35c0,-1.19 0.49,-2.27 1.27,-3.06 0.78,-0.78 1.87,-1.27 3.06,-1.27zm29.9 2.84l-29.9 0c-0.41,0 -0.78,0.17 -1.05,0.44 -0.27,0.26 -0.44,0.64 -0.44,1.05l0 45.35c0,0.41 0.17,0.78 0.44,1.04 0.27,0.27 0.64,0.44 1.05,0.44l21.78 0 9.61 -8.8 0 -38.03c0,-0.41 -0.17,-0.79 -0.44,-1.05 -0.27,-0.27 -0.64,-0.44 -1.05,-0.44z"/>
+   <path class="fil41" d="M-141.07 12.51l7.89 -4 8.61 4.41 0 11.94 -8.68 4.19 -8.61 -4.19 0 -11.95 0.79 -0.4zm7.89 -0.82l-5.83 2.96 0 8.44 5.77 2.81 5.83 -2.81 0 -8.45 -5.77 -2.95z"/>
+   <polygon class="fil42" points="-125.34,15.36 -133.21,19.48 -141.09,15.36 -139.78,12.86 -133.21,16.29 -126.65,12.86 "/>
+   <polygon class="fil43" points="-135.11,23.69 -135.11,17.89 -131.32,17.89 -131.32,23.69 "/>
+   <polygon class="fil44" points="-138.31,5.85 -127.69,5.85 -127.69,8.69 -138.31,8.69 "/>
+   <polygon class="fil45" points="-144.12,29.08 -121.89,29.07 -121.89,31.9 -144.12,31.91 "/>
+   <polygon class="fil46" points="-144.12,33.61 -121.89,33.6 -121.89,36.43 -144.12,36.44 "/>
+   <polygon class="fil47" points="-144.12,38.14 -121.89,38.13 -121.89,40.96 -144.12,40.97 "/>
+   <polygon class="fil48" points="-144.11,42.48 -129.81,42.47 -129.81,45.3 -144.11,45.31 "/>
+   <path class="fil49" d="M-127.27 52.57l0 -7.07c0,-1.17 0.48,-2.24 1.25,-3.01 0.77,-0.77 1.83,-1.24 3,-1.24l3.53 0 0 2.84 -3.53 0c-0.38,0 -0.74,0.16 -0.99,0.42 -0.26,0.25 -0.42,0.6 -0.42,0.99l0 7.07 -2.84 0z"/>
+  </g>
+  <path class="fil0 str9" d="M-291.76 -296.24l31.57 0c1.69,0 3.06,1.37 3.06,3.06l0 40.8 -11.06 10.14 -23.57 0c-1.69,0 -3.06,-1.38 -3.06,-3.07l0 -47.87c0,-1.69 1.37,-3.06 3.06,-3.06z"/>
+  <polygon class="fil0 str9" points="-283.58,-283.2 -275.92,-287.08 -268.34,-283.2 -268.34,-272.44 -275.99,-268.74 -283.58,-272.44 "/>
+  <polyline class="fil0 str9" points="-268.34,-282.85 -275.96,-278.86 -283.58,-282.85 "/>
+  <line class="fil0 str10" x1="-275.96" y1="-272.74" x2="-275.96" y2= "-278.86" />
+  <line class="fil0 str9" x1="-272.44" y1="-285.3" x2="-279.77" y2= "-280.86" />
+  <line class="fil0 str9" x1="-281.34" y1="-290.07" x2="-270.13" y2= "-290.07" />
+  <line class="fil0 str9" x1="-287.47" y1="-265.56" x2="-264" y2= "-265.57" />
+  <line class="fil0 str9" x1="-287.47" y1="-260.77" x2="-264" y2= "-260.78" />
+  <line class="fil0 str9" x1="-287.47" y1="-255.99" x2="-264" y2= "-256" />
+  <line class="fil0 str9" x1="-287.46" y1="-251.8" x2="-272.37" y2= "-251.81" />
+  <path class="fil0 str9" d="M-268.19 -242.25l0 -7.47c0,-1.64 1.35,-2.99 2.99,-2.99l3.73 0"/>
+  <g id="_2007358532464">
+   <path class="fil0 str7" d="M136.68 -52.65l0 8.54c0,0.96 -0.78,1.74 -1.74,1.74l-26.47 0c-0.96,0 -1.75,-0.78 -1.75,-1.74l0 -7.57m0 -7.23l0 -36.22c0,-0.96 0.79,-1.74 1.75,-1.74l26.47 0c0.96,0 1.74,0.78 1.74,1.74l0 17.26"/>
+   <line class="fil0 str11" x1="106.72" y1="-89.96" x2="136.68" y2= "-89.96" />
+   <line class="fil0 str11" x1="106.72" y1="-51.08" x2="136.68" y2= "-51.08" />
+   <line class="fil0 str12" x1="117.56" y1="-46.55" x2="125.84" y2= "-46.55" />
+   <polyline class="fil0 str12" points="115.55,-76.34 113.66,-78.17 111.78,-80 113.66,-81.83 115.55,-83.66 "/>
+   <polyline class="fil0 str12" points="128.11,-76.34 130,-78.17 131.89,-80 130,-81.83 128.11,-83.66 "/>
+   <line class="fil0 str12" x1="123.79" y1="-86.35" x2="118.57" y2= "-73.12" />
+   <circle class="fil0 str11" cx="137.03" cy="-65.71" r="3.83"/>
+   <path class="fil0 str11" d="M139.21 -74.51c0.98,0.24 1.89,0.64 2.71,1.17l1.76 -1.75c0.24,-0.24 0.63,-0.24 0.87,0l2.21 2.21c0.24,0.24 0.24,0.63 0,0.87l-1.84 1.84c0.46,0.81 0.79,1.69 0.99,2.63l2.7 0c0.34,0 0.62,0.28 0.62,0.62l0 3.11c0,0.34 -0.28,0.62 -0.62,0.62l-2.88 0c-0.24,0.85 -0.61,1.65 -1.07,2.37l2.1 2.1c0.24,0.24 0.24,0.63 0,0.88l-2.21 2.2c-0.24,0.24 -0.63,0.24 -0.87,0l-2.19 -2.19c-0.71,0.4 -1.47,0.71 -2.28,0.91l0 3.13c0,0.34 -0.28,0.62 -0.62,0.62l-3.12 0c-0.34,0 -0.62,-0.28 -0.62,-0.62l0 -3.13c-0.8,-0.2 -1.57,-0.51 -2.27,-0.91l-2.19 2.19c-0.24,0.24 -0.64,0.24 -0.88,0l-2.2 -2.2c-0.24,-0.25 -0.24,-0.64 0,-0.88l2.1 -2.1c-0.47,-0.72 -0.83,-1.52 -1.08,-2.37l-2.87 0c-0.34,0 -0.62,-0.28 -0.62,-0.62l0 -3.11c0,-0.34 0.28,-0.62 0.62,-0.62l2.7 0c0.19,-0.94 0.53,-1.82 0.99,-2.63l-1.84 -1.84c-0.24,-0.24 -0.24,-0.63 0,-0.87l2.2 -2.21c0.24,-0.24 0.64,-0.24 0.88,0l1.75 1.75c0.82,-0.53 1.74,-0.93 2.71,-1.17l0 -2.43c0,-0.34 0.28,-0.62 0.62,-0.62l3.12 0c0.34,0 0.62,0.28 0.62,0.62l0 2.43z"/>
+   <line class="fil0 str12" x1="119.39" y1="-93.24" x2="124.01" y2= "-93.24" />
+  </g>
+  <g id="_2007358529488">
+   <path class="fil50" d="M-182.25 44.45c0,-1.02 0.82,-1.85 1.84,-1.85 1.02,0 1.85,0.83 1.85,1.85l0 6.1c0,0.95 -0.39,1.81 -1.01,2.44 -0.63,0.62 -1.49,1.01 -2.44,1.01l-24.45 0c-0.94,0 -1.8,-0.39 -2.43,-1.01 -0.63,-0.63 -1.02,-1.49 -1.02,-2.44l0 -6.99c0,-0.3 0.07,-0.58 0.2,-0.83l3.29 0c0.13,0.25 0.2,0.53 0.2,0.83l0 6.75 23.97 0 0 -5.86zm-23.97 -7.56c0,1.02 -0.82,1.84 -1.84,1.84 -1.02,0 -1.85,-0.82 -1.85,-1.84l0 -33.44c0,-0.94 0.39,-1.8 1.01,-2.43 0.63,-0.63 1.49,-1.02 2.44,-1.02l24.45 0c0.95,0 1.81,0.39 2.44,1.01l0.13 0.16c0.55,0.61 0.88,1.41 0.88,2.28l0 13.14c0,1.01 -0.83,1.84 -1.85,1.84 -1.02,0 -1.84,-0.83 -1.84,-1.84l0 -12.9 -23.97 0 0 33.2z"/>
+   <polygon class="fil51" points="-208.06,6.84 -180.41,6.84 -180.41,9.61 -208.06,9.61 "/>
+   <polygon class="fil52" points="-208.06,42.73 -180.41,42.73 -180.41,45.5 -208.06,45.5 "/>
+   <path class="fil53" d="M-198.95 19.8c0.54,0.54 0.56,1.41 0.03,1.96 -0.54,0.54 -1.41,0.55 -1.96,0.02l-3.48 -3.37c-0.55,-0.53 -0.56,-1.41 -0.03,-1.95 1.15,-1.15 2.35,-2.27 3.51,-3.4 0.55,-0.53 1.42,-0.52 1.96,0.02 0.53,0.55 0.51,1.42 -0.03,1.95l-2.47 2.39 2.47 2.38z"/>
+   <path class="fil54" d="M-187.36 21.78c-0.54,0.53 -1.42,0.52 -1.95,-0.02 -0.53,-0.55 -0.52,-1.42 0.03,-1.96l2.46 -2.38 -2.46 -2.39c-0.55,-0.53 -0.56,-1.4 -0.03,-1.95 0.53,-0.54 1.41,-0.55 1.95,-0.02 1.17,1.13 2.37,2.25 3.52,3.4 0.53,0.54 0.51,1.42 -0.03,1.95l-3.49 3.37z"/>
+   <path class="fil55" d="M-193.59 11.05c0.28,-0.71 1.08,-1.06 1.79,-0.78 0.71,0.28 1.06,1.09 0.78,1.8l-4.82 12.21c-0.28,0.71 -1.09,1.06 -1.8,0.78 -0.71,-0.29 -1.06,-1.09 -0.78,-1.8l4.83 -12.21z"/>
+   <path class="fil56" d="M-180.09 26.58c1.13,0 2.15,0.46 2.89,1.19 0.74,0.74 1.2,1.76 1.2,2.89 0,1.13 -0.46,2.15 -1.2,2.89 -0.74,0.74 -1.76,1.2 -2.89,1.2 -1.12,0 -2.14,-0.46 -2.88,-1.2 -0.74,-0.74 -1.2,-1.76 -1.2,-2.89 0,-1.13 0.46,-2.15 1.2,-2.89 0.74,-0.73 1.76,-1.19 2.88,-1.19zm1.27 2.82c-0.32,-0.32 -0.77,-0.52 -1.27,-0.52 -0.49,0 -0.94,0.2 -1.26,0.52 -0.32,0.32 -0.52,0.77 -0.52,1.26 0,0.5 0.2,0.95 0.52,1.27 0.32,0.32 0.77,0.52 1.26,0.52 0.5,0 0.95,-0.2 1.27,-0.52 0.32,-0.32 0.52,-0.77 0.52,-1.27 0,-0.49 -0.2,-0.94 -0.52,-1.26z"/>
+   <path class="fil57" d="M-177.27 23.08l0.73 0.32 0.73 -0.73c0.32,-0.32 0.74,-0.48 1.15,-0.48 0.42,0 0.83,0.16 1.15,0.48l1.69 1.69c0.31,0.31 0.47,0.73 0.47,1.14 0,0.42 -0.16,0.84 -0.47,1.15l-0.83 0.83 0.24 0.63 1.19 0c0.45,0 0.86,0.19 1.15,0.48 0.29,0.29 0.48,0.7 0.48,1.15l0 2.38c0,0.45 -0.19,0.86 -0.48,1.15 -0.29,0.29 -0.7,0.48 -1.15,0.48l-1.39 0 -0.21 0.46 1 1c0.31,0.31 0.47,0.73 0.47,1.14 0,0.42 -0.16,0.84 -0.47,1.15l-1.69 1.69c-0.32,0.32 -0.73,0.47 -1.15,0.47 -0.41,0 -0.83,-0.15 -1.15,-0.47l-1.09 -1.1 -0.37 0.15 0 1.56c0,0.44 -0.18,0.85 -0.47,1.14 -0.3,0.29 -0.71,0.48 -1.15,0.48l-2.39 0c-0.44,0 -0.85,-0.19 -1.15,-0.48 -0.29,-0.29 -0.47,-0.7 -0.47,-1.14l0 -1.56 -0.37 -0.15 -1.09 1.1c-0.32,0.32 -0.73,0.47 -1.15,0.47 -0.41,0 -0.83,-0.15 -1.15,-0.47l-1.69 -1.69c-0.31,-0.31 -0.47,-0.73 -0.47,-1.15 0,-0.41 0.16,-0.83 0.47,-1.14l1 -1 -0.21 -0.46 -1.39 0c-0.45,0 -0.86,-0.19 -1.15,-0.48 -0.29,-0.29 -0.48,-0.7 -0.48,-1.15l0 -2.38c0,-0.45 0.19,-0.86 0.48,-1.15 0.29,-0.29 0.7,-0.48 1.15,-0.48l1.19 0 0.24 -0.63 -0.83 -0.83c-0.31,-0.31 -0.47,-0.73 -0.47,-1.15 0,-0.41 0.16,-0.83 0.47,-1.14l1.69 -1.69c0.32,-0.32 0.74,-0.48 1.15,-0.48 0.42,0 0.83,0.16 1.15,0.48l0.72 0.73 0.36 -0.17 0.38 -0.15 0 -1.02c0,-0.45 0.18,-0.85 0.47,-1.15 0.3,-0.29 0.71,-0.47 1.15,-0.47l2.39 0c0.45,0 0.85,0.18 1.15,0.47 0.29,0.3 0.47,0.7 0.47,1.15l0 1.02zm-0.52 2.26c-0.28,-0.12 -0.58,-0.22 -0.9,-0.3l-0.88 -0.22 0 -2.08 -1.03 0 0 2.08 -0.88 0.22c-0.32,0.08 -0.62,0.18 -0.9,0.3 -0.29,0.13 -0.57,0.28 -0.83,0.45l-0.78 0.5 -1.52 -1.52 -0.73 0.73 1.54 1.55 -0.43 0.76c-0.14,0.25 -0.27,0.53 -0.38,0.82 -0.11,0.27 -0.19,0.56 -0.25,0.86l-0.19 0.92 -2.33 0 0 1.04 2.39 0 0.24 0.83c0.07,0.26 0.17,0.52 0.29,0.78 0.11,0.25 0.25,0.49 0.4,0.73l0.5 0.78 -1.78 1.78 0.73 0.74 1.81 -1.82 0.77 0.44c0.23,0.13 0.47,0.24 0.7,0.34 0.25,0.09 0.5,0.18 0.75,0.24l0.88 0.21 0 2.62 1.03 0 0 -2.62 0.88 -0.21c0.24,-0.06 0.5,-0.15 0.75,-0.25 0.23,-0.09 0.47,-0.2 0.7,-0.33l0.76 -0.44 1.82 1.82 0.73 -0.74 -1.78 -1.78 0.5 -0.78c0.15,-0.24 0.29,-0.48 0.4,-0.73 0.12,-0.26 0.22,-0.52 0.29,-0.78l0.24 -0.83 2.39 0 0 -1.04 -2.33 0 -0.19 -0.92c-0.06,-0.3 -0.14,-0.59 -0.25,-0.86 -0.11,-0.29 -0.24,-0.57 -0.38,-0.82l-0.43 -0.76 1.54 -1.55 -0.73 -0.73 -1.52 1.52 -0.78 -0.5c-0.26,-0.17 -0.54,-0.32 -0.83,-0.45z"/>
+   <path class="fil58" d="M-195.81 6.05c-0.56,0 -1.01,-0.34 -1.01,-0.76 0,-0.42 0.45,-0.76 1.01,-0.76l3.14 0c0.57,0 1.02,0.34 1.02,0.76 0,0.42 -0.45,0.76 -1.02,0.76l-3.14 0z"/>
+   <path class="fil59" d="M-197.07 48.87c-0.56,0 -1.01,-0.34 -1.01,-0.76 0,-0.41 0.45,-0.75 1.01,-0.75l5.66 0c0.57,0 1.02,0.34 1.02,0.75 0,0.42 -0.45,0.76 -1.02,0.76l-5.66 0z"/>
+  </g>
+  <circle class="fil60" cx="13.33" cy="5" r="0.83"/>
+  <circle class="fil61" cx="17" cy="5" r="0.83"/>
+  <circle class="fil62" cx="20.67" cy="5" r="0.83"/>
+  <g id="_2007358522544">
+   <path class="fil63" d="M47.58 9.08c-1,0 -1.82,-0.82 -1.82,-1.82 0,-1 0.82,-1.82 1.82,-1.82l1.46 0c1.01,0 1.93,0.42 2.59,1.08 0.67,0.67 1.08,1.59 1.08,2.6l0 29.56c0,1.01 -0.41,1.92 -1.07,2.59 -0.67,0.67 -1.59,1.08 -2.6,1.08l-44.08 0c-1.01,0 -1.93,-0.41 -2.59,-1.07l-0.01 -0.01c-0.66,-0.67 -1.07,-1.59 -1.07,-2.59l0 -29.56c0,-1.01 0.41,-1.93 1.07,-2.59 0.67,-0.67 1.59,-1.09 2.6,-1.09l1.63 0c1,0 1.81,0.82 1.81,1.82 0,1 -0.81,1.82 -1.81,1.82l-1.66 0.01c-0.04,0.11 -0.16,28.85 -0.01,29.62l0.04 0.01 44.12 -0.01c0.01,-0.04 0.03,-29.53 0,-29.62l-1.5 -0.01z"/>
+   <path class="fil64" d="M17.61 45.08l18.78 0c1,0 1.9,0.4 2.56,1.06 0.65,0.65 1.06,1.56 1.06,2.55l0 3.49c0,1.01 -0.81,1.82 -1.82,1.82l-22.38 0c-1.01,0 -1.82,-0.81 -1.82,-1.82l0 -3.49c0,-0.99 0.41,-1.9 1.06,-2.55l0.15 -0.13c0.64,-0.58 1.49,-0.93 2.41,-0.93zm18.77 3.63l-18.76 0 0 1.66 18.76 0 0 -1.66z"/>
+   <path class="fil65" d="M20.85 42.3c0.44,-0.89 1.53,-1.25 2.42,-0.81 0.89,0.45 1.25,1.54 0.81,2.43 0,0 -1.48,2.66 -3.71,4.4 -0.78,0.61 -1.92,0.47 -2.54,-0.32 -0.61,-0.78 -0.47,-1.92 0.32,-2.53 1.65,-1.29 2.69,-3.17 2.7,-3.17z"/>
+   <path class="fil66" d="M29.54 43.92c-0.44,-0.89 -0.08,-1.98 0.81,-2.43 0.89,-0.44 1.98,-0.08 2.43,0.81 0,0 1.05,1.88 2.7,3.17 0.78,0.61 0.92,1.75 0.31,2.53 -0.62,0.79 -1.75,0.93 -2.54,0.32 -2.23,-1.74 -3.7,-4.4 -3.71,-4.4z"/>
+   <path class="fil67" d="M11.12 28.29c0,1 -0.82,1.81 -1.82,1.81 -1,0 -1.81,-0.81 -1.81,-1.81l0 -24.66c0,-1 0.4,-1.91 1.06,-2.57 0.66,-0.65 1.57,-1.06 2.57,-1.06l31.76 0c1,0 1.91,0.41 2.57,1.07 0.65,0.65 1.06,1.56 1.06,2.56l0 24.66c0,1 -0.81,1.81 -1.81,1.81 -1,0 -1.82,-0.81 -1.82,-1.81l0 -24.66 -31.76 0 0 24.66z"/>
+   <polygon class="fil68" points="9.3,6.82 44.7,6.82 44.7,10.45 9.3,10.45 "/>
+   <path class="fil69" d="M30.48 6.35c-0.5,0 -0.91,-0.4 -0.91,-0.91 0,-0.49 0.41,-0.9 0.91,-0.9l11.04 0c0.5,0 0.91,0.41 0.91,0.9 0,0.51 -0.41,0.91 -0.91,0.91l-11.04 0z"/>
+   <path class="fil70" d="M21.11 24.21c0.72,0.7 0.74,1.85 0.04,2.56 -0.7,0.72 -1.84,0.74 -2.56,0.04l-4.38 -4.24c-0.72,-0.7 -0.73,-1.84 -0.03,-2.56 1.44,-1.44 2.94,-2.85 4.41,-4.27 0.72,-0.7 1.86,-0.68 2.56,0.03 0.7,0.72 0.68,1.87 -0.04,2.56l-3.04 2.94 3.04 2.94z"/>
+   <path class="fil71" d="M35.09 26.77c-0.72,0.7 -1.86,0.68 -2.56,-0.03 -0.7,-0.72 -0.68,-1.86 0.03,-2.56l3.04 -2.94 -3.04 -2.94c-0.71,-0.7 -0.73,-1.85 -0.03,-2.56 0.7,-0.72 1.84,-0.73 2.56,-0.04 1.46,1.42 2.97,2.84 4.41,4.28 0.7,0.71 0.68,1.86 -0.03,2.56l-4.38 4.23z"/>
+   <path class="fil72" d="M27.7 13.31c0.33,-0.95 1.37,-1.44 2.31,-1.11 0.94,0.33 1.44,1.37 1.1,2.31l-5.45 15.34c-0.34,0.94 -1.37,1.44 -2.32,1.11 -0.94,-0.34 -1.43,-1.37 -1.1,-2.31l5.46 -15.34z"/>
+   <polygon class="fil73" points="2.8,32.07 51.2,32.07 51.2,35.7 2.8,35.7 "/>
+   <path class="fil74" d="M24.88 38.12c-0.5,0 -0.91,-0.41 -0.91,-0.91 0,-0.5 0.41,-0.91 0.91,-0.91l4.24 0c0.5,0 0.91,0.41 0.91,0.91 0,0.5 -0.41,0.91 -0.91,0.91l-4.24 0z"/>
+  </g>
+  <g id="_2007358517488">
+   <rect class="fil0" x="267" y="84.33" width="54" height="54"/>
+   <path class="fil0 str7" d="M316.67 90.33l1.62 0c1.12,0 2.04,0.92 2.04,2.05l0 32.58c0,1.12 -0.92,2.04 -2.04,2.04l-48.58 0c-1.12,0 -2.04,-0.92 -2.04,-2.04l0 -32.58c0,-1.13 0.92,-2.05 2.04,-2.05l1.8 0"/>
+   <path class="fil0 str7" d="M283.65 134l20.7 0c1.09,0 1.98,0.89 1.98,1.99l0 3.84 -24.66 0 0 -3.84c0,-1.1 0.89,-1.99 1.98,-1.99z"/>
+   <path class="fil0 str7" d="M289 129.83c0,0 -1.39,2.5 -3.53,4.17"/>
+   <path class="fil0 str7" d="M298.58 129.83c0,0 1.4,2.5 3.53,4.17"/>
+   <path class="fil0 str7" d="M274.5 113.5l0 -27.17c0,-1.1 0.9,-2 2,-2l35 0c1.1,0 2,0.91 2,2l0 27.17"/>
+   <line class="fil0 str8" x1="274.5" y1="91.85" x2="313.5" y2= "91.85" />
+   <circle class="fil75" cx="278.17" cy="88.17" r="0.83"/>
+   <circle class="fil75" cx="281.83" cy="88.17" r="0.83"/>
+   <circle class="fil75" cx="285.5" cy="88.17" r="0.83"/>
+   <line class="fil0 str13" x1="297.83" y1="88.33" x2="310" y2= "88.33" />
+   <g>
+    <polyline class="fil0 str7" points="286.12,110.44 283.71,108.11 281.3,105.77 283.71,103.44 286.12,101.1 "/>
+    <polyline class="fil0 str7" points="301.52,110.41 303.93,108.07 306.35,105.74 303.93,103.4 301.52,101.07 "/>
+    <line class="fil0 str7" x1="296.65" y1="97.66" x2="290.64" y2= "114.56" />
+   </g>
+   <line class="fil0 str8" x1="267.33" y1="119.67" x2="320.67" y2= "119.67" />
+   <line class="fil0 str13" x1="291.67" y1="123.33" x2="296.33" y2= "123.33" />
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,55 @@
+@import 'assets/styles/variable.scss';
+.eachBlogPostype {
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 120px;
+	padding: 20px;
+	border: #d7d7d7 1px dashed;
+	h2 {
+		font-size: 26px;
+		text-transform: uppercase;
+	}
+	li {
+		&:not(:last-child) {
+			padding-bottom: 15px;
+			margin-bottom: 15px;
+			border-bottom: 1px dashed #e0e0e0;
+		}
+		a {
+			width: 100%;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+		.blogRecentprt {
+			flex: 0 0 66px;
+			max-width: 66px;
+			img {
+				width: 100%;
+				display: block;
+				height: 56px;
+				object-fit: cover;
+				border-radius: 6px;
+			}
+		}
+		.blogRightPrt {
+			width: calc(100% - 66px);
+			padding-left: 10px;
+			h5 {
+				font-size: 13px;
+				padding-bottom: 0px;
+				color: $bg-3;
+			}
+			p {
+				line-height: 1.4;
+				color: #8b8b8b;
+				font-size: 12px;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 767px) {
+	.theProblem {
+		padding: 1rem 0;
+		&:after {
+			width: 40%;
+			height: 100%;
+			opacity: 0.08;
+		}
+	}
+	.theProblemInner {
+		font-size: 0.9rem;
+	}
+}

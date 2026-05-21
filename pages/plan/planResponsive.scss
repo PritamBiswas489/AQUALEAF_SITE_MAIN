@@ -1,0 +1,50 @@
+@media only screen and (max-width: 767px) {
+    .contact-dtls-wrap-sec{
+        .contact-dtls-wrap {
+            h2{
+                font-size: 1.25rem;
+            }
+            h4{
+                font-size: 0.875rem;
+            }
+            ul{
+                li{
+                    a{
+                        font-size: 0.875rem;
+                    }
+                }
+                &.addrs{
+                    li{
+                        font-size: 0.875rem;
+                        span{
+                            display: block;
+                        }                        
+                        &:not(:last-child){
+                            margin-right: 0rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 575px) {
+    .contact-dtls-wrap-sec{
+        .contact-dtls-wrap {
+            h2{
+                font-size: 1rem;
+            }
+            ul{
+                li{
+                    a{
+                        font-size: 0.875rem;
+                    }
+                    &:not(:last-child){
+                        margin-right: 0rem;
+                        margin-bottom: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,133 @@
+@import 'assets/styles/variable.scss';
+
+.blogTitle {
+	background: #f2f2f2;
+	padding: 30px 0;
+	text-align: center;
+	h2 {
+		color: $bg-3;
+		padding: 0;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+}
+.imgPart {
+	padding-left: 120px;
+	max-width: 50%;
+	-ms-flex: 50%;
+	-webkit-flex: 50%;
+	flex: 50%;
+	a {
+		display: block;
+		img {
+			width: 100%;
+			display: block;
+			border-radius: 10px;
+		}
+	}
+}
+.tetailPart {
+	width: 50%;
+	max-width: 50%;
+	-ms-flex: 50%;
+	-webkit-flex: 50%;
+	flex: 50%;
+	.box-content {
+		padding: 0 0 0 1.8rem;
+	}
+	.title {
+		color: #1e1e25;
+		display: inline-block;
+		font-size: 1.571em;
+		font-weight: 700;
+		margin: 0 0 10px;
+		&:hover {
+			color: $bg-1;
+		}
+	}
+	.blogText {
+		color: #555e69;
+		line-height: 22px;
+	}
+	.stylishBtn {
+		border: $bg-1 1px solid;
+		display: inline-block;
+		position: relative;
+		a {
+			padding: 7px 30px;
+			color: $bg-1;
+			text-transform: uppercase;
+			position: relative;
+			display: block;
+			font-weight: 700;
+			font-size: 14px;
+		}
+		&:before {
+			background: #f9f9f9;
+			width: 80%;
+			height: 1px;
+			top: -1px;
+			left: 25px;
+			content: '';
+			margin: 0 auto;
+			position: absolute;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+		&:after {
+			background: #f9f9f9;
+			width: 80%;
+			height: 1px;
+			bottom: -1px;
+			right: 25px;
+			content: '';
+			margin: 0 auto;
+			position: absolute;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+		&:hover::before,
+		&:hover::after {
+			width: 0;
+		}
+	}
+}
+.blog {
+	.blogInner {
+		background: #f9f9f9;
+		padding: 30px;
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+	.box-date {
+		position: absolute;
+		width: 105px;
+		top: 0;
+		left: 0;
+	}
+	.date {
+		color: #d0d0d0;
+		font-size: 6.12em;
+		line-height: 70px;
+		font-weight: 700;
+		span {
+			font-size: 56.667%;
+			line-height: 40px;
+			vertical-align: top;
+		}
+	}
+	.month {
+		font-size: 1.286em;
+		position: absolute;
+		right: 8px;
+		top: 45px;
+		color: $bg-1;
+		line-height: normal;
+		font-weight: 800;
+	}
+}

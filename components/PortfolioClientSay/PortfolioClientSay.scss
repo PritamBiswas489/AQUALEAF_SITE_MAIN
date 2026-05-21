@@ -1,0 +1,89 @@
+@import 'assets/styles/variable.scss';
+.PortfolioClientSay {
+	padding: 4rem 0;
+	// background: url(../../assets/images/common-image/patern.png) left top repeat;
+	// background: rgb(1,183,98);
+	// background: -moz-linear-gradient(45deg, rgba(1,183,98,1) 0%, rgba(130,242,229,1) 100%);
+	// background: -webkit-linear-gradient(45deg, rgba(1,183,98,1) 0%,rgba(130,242,229,1) 100%);
+	// background: linear-gradient(45deg, rgba(1,183,98,1) 0%,rgba(130,242,229,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01b762', endColorstr='#82f2e5',GradientType=1 );
+	position: relative;
+	z-index: 1;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 50%;
+		height: 100%;
+		width: 50%;
+		background: url(../../assets/images/common-image/client-say-bg.png) left bottom no-repeat;
+		background-size: contain;
+		z-index: -1;
+		transform: translateY(-50%);
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 75%;
+		width: 30%;
+		background: url(../../assets/images/common-image/client-say-bgr.png) right top no-repeat;
+		background-size: contain;
+		z-index: -1;
+	}
+	.testiContent {
+		margin: 0 auto;
+		max-width: 700px;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.12);
+		padding: 3rem;
+		border-radius: 0.7rem;
+		filter: drop-shadow(14px 12px 20px rgba(0, 0, 0, 0.11));
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(3px);
+		h2 {
+			text-align: center;
+			font-size: 35px;
+			font-weight: 700;
+			border-bottom: $bg-3 1px solid;
+			margin-bottom: 2rem;
+		}
+		.headIcon {
+			position: static;
+		}
+		p {
+			&:before {
+				top: -43px;
+				left: -71px;
+				font-size: 48px;
+				color: #b5ebdd;
+				z-index: -1;
+			}
+			&:after {
+				color: #b5ebdd;
+				font-size: 48px;
+				bottom: -43px;
+				z-index: -1;
+				right: -72px;
+			}
+		}
+	}
+	h2 {
+		color: $bg-3;
+		font-weight: 700;
+		font-size: 3.4rem;
+		position: relative;
+		z-index: 1;
+
+		span {
+			font-weight: 300;
+			display: block;
+			font-size: 3rem;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+		}
+	}
+}

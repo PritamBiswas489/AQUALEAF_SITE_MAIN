@@ -1,0 +1,30 @@
+.clRev {
+  margin-top: 30px;
+  ul {
+    li {
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
+      a {
+        display: block;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        padding: 0.8rem;
+        filter: drop-shadow(0 9px 4px rgba(0, 0, 0, 0.05));
+        img {
+          max-width: 100%;
+          display: block;
+          max-height: 46px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .clRev ul li a {
+    padding: 0.4rem;
+    img {
+      max-height: 25px !important;
+    }
+  }
+}

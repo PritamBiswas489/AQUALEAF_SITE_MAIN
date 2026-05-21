@@ -1,0 +1,21 @@
+@import 'assets/styles/variable.scss';
+.devServTwoSec {
+	padding: 2rem 0;
+}
+.devServTwoSecImg {
+	width: 62%;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	padding-right: 3rem;
+	img {
+		width: 100%;
+		display: block;
+	}
+}
+.devServTwoSecCont {
+	max-width: none;
+	width: 38%;
+	margin-left: 0px;
+	margin-right: 150px;
+}

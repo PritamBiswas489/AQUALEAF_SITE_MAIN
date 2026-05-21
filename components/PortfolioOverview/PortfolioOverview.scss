@@ -1,0 +1,54 @@
+@import 'assets/styles/variable.scss';
+.overView {
+	padding: 3rem 0;
+	h2 {
+		font-weight: 700;
+	}
+}
+.overViewInner {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	p {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 2;
+	}
+}
+
+.teamComposition {
+	&:after {
+		position: absolute;
+		content: '';
+		left: -50px;
+		top: -20px;
+		height: 130px;
+		width: 50%;
+		background: #e7efe0;
+		z-index: -1;
+	}
+	ul {
+		margin-top: 10px;
+		li {
+			padding-left: 40px;
+			position: relative;
+			color: $bg-3;
+			font-size: 18px;
+			font-weight: 500;
+			&:not(:last-child) {
+				margin-bottom: 30px;
+			}
+			&::before {
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 25px;
+				height: 25px;
+				background: url(../../assets/images/common-image/q-small.svg) no-repeat;
+				background-size: contain;
+			}
+		}
+	}
+}

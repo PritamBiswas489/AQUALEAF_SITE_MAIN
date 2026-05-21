@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for Aqualeaf IT Solutions Pvt. Ltd..</name>
+		<atom:author>
+			<atom:name>Aqualeaf IT Solutions Pvt. Ltd..</atom:name>
+		</atom:author>
+		<atom:link rel="related" href="https://www.aqualeafitsol.com" />
+		<Folder>
+			<Placemark>
+				<name><![CDATA[Aqualeaf IT Solutions Pvt. Ltd.]]></name>
+				<address><![CDATA[AD 218 , Sector 1 , Near AD Park, Saltlake City, Kolkata, 700064, India]]></address>
+				<phoneNumber><![CDATA[ 919804070412]]></phoneNumber>
+				<description><![CDATA[{Aqualeaf IT Solutions Pvt. Ltd.}{AD 218 , Sector 1 , Near AD Park, Saltlake City}{Kolkata}{700064}{West Bengal}{India}{ 919804070412}]]></description>
+				<Point>
+					<coordinates>88.4065298,22.5970103,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1135px) {
+	.eachBlogPostype {
+		h2 {
+			font-size: 1.1rem;
+			text-transform: uppercase;
+		}
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.blog [class*='col-'] {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.imgPart {
+		padding-left: 0;
+		max-width: 44%;
+		flex: 44% 1;
+	}
+	.tetailPart {
+		width: 56%;
+		max-width: 56%;
+		flex: 56% 1;
+	}
+}
+@media only screen and (max-width: 736px) {
+	.imgPart,
+	.tetailPart {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+	.tetailPart {
+		.box-content {
+			padding: 1rem 0 0;
+		}
+	}
+	.blog {
+		.blogInner {
+			background-color: transparent;
+			padding: 0;
+			margin-bottom: 0.5rem;
+			&:not(:last-child) {
+				margin-bottom: 25px;
+			}
+		}
+	}
+}

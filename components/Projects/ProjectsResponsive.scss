@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+	.projectsArea {
+		padding: 1.5rem 0;
+		[class*='col-'] {
+			margin: 0.5rem 0;
+		}
+	}
+}

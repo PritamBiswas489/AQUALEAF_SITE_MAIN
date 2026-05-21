@@ -1,0 +1,51 @@
+@media only screen and (max-width: 991px) {
+	.sdAgencyLeft {
+		max-width: none;
+		width: 50%;
+		margin-left: 68px;
+		margin-right: 0px;
+	}
+	.sdAgencyRight {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.sdAgency,
+	.accessibleDesign {
+		flex-wrap: wrap;
+	}
+	.sdAgencyLeft {
+		max-width: none;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0px;
+		margin-top: 20px;
+		padding: 0 20px;
+		text-align: center;
+		padding-bottom: 2rem;
+	}
+	.sdAgencyRight {
+		width: 100%;
+		text-align: center;
+		order: -1;
+	}
+
+	.goodBusiness.sdAgency,
+	.accessibleDesign {
+		.sgbLeft {
+			order: -1;
+		}
+		.sgbRight {
+			margin: 0;
+		}
+	}
+	.PortfolioClientSay {
+		padding: 1.5rem 0;
+	}
+	.sdAgencyLeftInner {
+		h3 {
+			font-size: clamp(1.3125rem, 0.718rem + 2.901vw, 4rem);
+		}
+	}
+}

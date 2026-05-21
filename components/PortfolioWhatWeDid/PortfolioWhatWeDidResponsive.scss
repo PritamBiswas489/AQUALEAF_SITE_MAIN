@@ -1,0 +1,49 @@
+@media only screen and (max-width: 767px) {
+	.whatWeDid {
+		background: #bbe0d6;
+		.whatWeDidTitle {
+			padding: 0;
+			font-size: 1.15rem;
+			h2 {
+				font-size: 1.4rem;
+			}
+			&:after {
+				display: none;
+			}
+		}
+	}
+	.whatWeDidDesc {
+		ul {
+			li {
+				font-size: 0.9rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	.whatWeDid {
+		padding: 1.5rem 0;
+		.whatWeDidTitle {
+			h2 {
+				padding-bottom: 0.3rem;
+			}
+			p {
+				font-size: 0.9rem;
+			}
+		}
+	}
+	.whatWeDidDesc {
+		ul {
+			li {
+				font-size: 0.8rem;
+				margin: 0.5rem 0;
+				padding: 0 7px 0 18px;
+			}
+			&:after {
+				width: 12px;
+				top: 9px;
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1024px) {
+	.weSay {
+		padding: 2rem 0 0;
+	}
+	.weSayContent {
+		h3 {
+			font-size: 1.25rem;
+		}
+	}
+}
+@media only screen and (max-width: 576px) {
+	.ewSayImg {
+		margin-bottom: 1rem;
+	}
+	.weSay {
+		padding: 2rem 0;
+	}
+}

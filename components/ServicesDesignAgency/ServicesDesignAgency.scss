@@ -1,0 +1,35 @@
+@import 'assets/styles/variable.scss';
+
+.sdAgencyLeft {
+	max-width: none;
+	width: 42%;
+	margin-left: 7%;
+	margin-right: 0px;
+}
+.sdAgencyRight {
+	width: 58%;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	z-index: 2;
+	img {
+		width: 100%;
+		height: auto;
+		vertical-align: bottom;
+		// filter: drop-shadow(0 0px 18px rgba(0, 0, 0, 0.2));
+	}
+}
+.sdAgencyLeftInner {
+	h3 {
+		font-weight: 300;
+		font-size: clamp(2.3125rem, 1.71831rem + 1.90141vw, 4rem);
+		span {
+			font-weight: 700;
+			display: block;
+		}
+	}
+	p {
+		font-size: clamp(1rem, 0.955986rem + 0.140845vw, 1.125rem);
+		line-height: 1.64;
+	}
+}
