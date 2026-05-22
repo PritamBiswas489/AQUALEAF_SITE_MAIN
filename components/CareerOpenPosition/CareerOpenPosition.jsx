@@ -9,8 +9,10 @@ import InputErrorMsg from '@/components/InputErrorMsg/InputErrorMsg';
 import { sendCareerFormData } from '@/helpers/data_utils';
 import { toast } from 'react-toastify';
 import parse from 'html-react-parser';
+import { useRouter } from 'next/router';
 
 const CareerOpenPosition = ({ careerCategoryContent }) => {
+  const router = useRouter();
   const {
     register,
     handleSubmit,
@@ -49,7 +51,13 @@ const CareerOpenPosition = ({ careerCategoryContent }) => {
 
     const result = await sendCareerFormData(formData);
     if (result.status === 200) {
-      toast.success('Thank your for contacting us !');
+      // toast.success('Thank your for contacting us !');
+          router.push({
+            pathname: '/thankyou',
+            query: {
+                type: 'job',
+            },
+          });
       reset();
     } else {
       toast.error(result?.error?.message);

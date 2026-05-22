@@ -15,8 +15,10 @@ import InputErrorMsg from '@/components/InputErrorMsg/InputErrorMsg';
 import { sendStartProjectData } from '@/helpers/data_utils';
 import { ToastContainer, toast } from 'react-toastify';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 const LetsTalk = ({ settings, projectModalOpen }) => {
+    const router = useRouter();
     const {
         register,
         handleSubmit,
@@ -74,7 +76,13 @@ const LetsTalk = ({ settings, projectModalOpen }) => {
 
         const result = await sendStartProjectData(formData);
         if (result.status === 200) {
-            toast.success('Thank your for contacting us !');
+            // toast.success('Thank your for contacting us !');
+            router.push({
+                pathname: '/thankyou',
+                query: {
+                    type: 'project',
+                },
+            });
             reset();
         } else {
             toast.error(result?.error?.message);
@@ -140,14 +148,55 @@ const LetsTalk = ({ settings, projectModalOpen }) => {
                         <div className='divider'></div>
 
                         <div className='w-100'>
-                            <a hhref={settingsContent?.skypeId} target='_blank' className='contactItem d-flex align-items-center'>
+                            <a href={settingsContent?.skypeId} target='_blank' className='contactItem d-flex align-items-center'>
                                 <div className='ciImg'>
                                     <span>
-                                        <i className='fab fa-skype'></i>
+                                        {/* <i className='fab fa-skype'></i> */}
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 48 48"
+                                            style={{ marginRight: "6px", verticalAlign: "middle" }}
+                                        >
+                                            {/* Back circles */}
+                                            <circle cx="31" cy="13" r="6" fill="currentColor" opacity="0.45" />
+                                            <circle cx="40" cy="16" r="4.5" fill="currentColor" opacity="0.8" />
+
+                                            {/* Main body */}
+                                            <path
+                                                fill="currentColor"
+                                                opacity="0.45"
+                                                d="M20 22h14a4 4 0 0 1 4 4v8c0 6-5 11-11 11s-11-5-11-11v-8a4 4 0 0 1 4-4z"
+                                            />
+
+                                            {/* Right body */}
+                                            <path
+                                                fill="currentColor"
+                                                opacity="0.8"
+                                                d="M32 22h8a4 4 0 0 1 4 4v6c0 5-4 9-9 9h-3z"
+                                            />
+
+                                            {/* Left square */}
+                                            <rect
+                                                x="4"
+                                                y="17"
+                                                width="18"
+                                                height="18"
+                                                rx="2"
+                                                fill="currentColor"
+                                            />
+
+                                            {/* T Letter */}
+                                            <path
+                                                fill="#fff"
+                                                d="M10 22v3h4v8h3v-8h4v-3z"
+                                            />
+                                        </svg>
                                     </span>
                                 </div>
                                 <div className='ciDesc'>
-                                    <p>click here to Skype</p>
+                                    <p>click here to Teams</p>
                                 </div>
                             </a>
                         </div>
@@ -156,7 +205,7 @@ const LetsTalk = ({ settings, projectModalOpen }) => {
 
                         <div className='shiduleBoxWrap d-flex mt-4'>
                             <div className='shiduleBox'>
-                                <Link href={'https://calendly.com/aqualeafitsol/30min'}>
+                                <Link href={'https://calendly.com/aqualeafitsol/30min'} target='_blank'>
                                     <Image height={50} width={50} className={`next-inblock`} src={scheduleCall.src} alt='' /> Schedule a call
                                 </Link>
                             </div>

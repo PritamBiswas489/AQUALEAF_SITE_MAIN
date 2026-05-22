@@ -51,7 +51,10 @@ function Footer({ settings }) {
                                         )}
                                         {settingsContent?.linkedinId && (
                                             <li>
-                                                <a href={`${settingsContent?.linkedinId}`} target='_blank' rel='noreferrer'>
+                                                {/* <a href={`${settingsContent?.linkedinId}`} target='_blank' rel='noreferrer'>
+                                                    <i className='fab fa-linkedin'></i>
+                                                </a> */}
+                                                <a href={`https://www.linkedin.com/company/aqualeafitsolpl/`} target='_blank' rel='noreferrer'>
                                                     <i className='fab fa-linkedin'></i>
                                                 </a>
                                             </li>
@@ -112,8 +115,53 @@ function Footer({ settings }) {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href={`${settingsContent?.skypeId}`} target='_blank' rel='noreferrer'>
+                                            {/* <a href={`${settingsContent?.skypeId}`} target='_blank' rel='noreferrer'>
                                                 <i className='fab fa-skype'></i> Skype
+                                            </a> */}
+                                            <a href={`${settingsContent?.skypeId}`} target="_blank" rel="noreferrer">
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="20"
+                                                    height="20"
+                                                    viewBox="0 0 48 48"
+                                                    style={{ marginRight: "6px", verticalAlign: "middle" }}
+                                                >
+                                                    {/* Back circles */}
+                                                    <circle cx="31" cy="13" r="6" fill="currentColor" opacity="0.45" />
+                                                    <circle cx="40" cy="16" r="4.5" fill="currentColor" opacity="0.8" />
+
+                                                    {/* Main body */}
+                                                    <path
+                                                        fill="currentColor"
+                                                        opacity="0.45"
+                                                        d="M20 22h14a4 4 0 0 1 4 4v8c0 6-5 11-11 11s-11-5-11-11v-8a4 4 0 0 1 4-4z"
+                                                    />
+
+                                                    {/* Right body */}
+                                                    <path
+                                                        fill="currentColor"
+                                                        opacity="0.8"
+                                                        d="M32 22h8a4 4 0 0 1 4 4v6c0 5-4 9-9 9h-3z"
+                                                    />
+
+                                                    {/* Left square */}
+                                                    <rect
+                                                        x="4"
+                                                        y="17"
+                                                        width="18"
+                                                        height="18"
+                                                        rx="2"
+                                                        fill="currentColor"
+                                                    />
+
+                                                    {/* T Letter */}
+                                                    <path
+                                                        fill="#fff"
+                                                        d="M10 22v3h4v8h3v-8h4v-3z"
+                                                    />
+                                                </svg>
+
+                                                Teams
                                             </a>
                                         </li>
                                         <li>

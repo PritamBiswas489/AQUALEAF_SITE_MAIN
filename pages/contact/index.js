@@ -20,9 +20,11 @@ import Container from '@/containers/Container';
 import { SettingsContent, sendContactData } from '@/helpers/data_utils';
 import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 function ContactUsPage(props) {
     const [token, setToken] = useState('');
+    const router = useRouter();
 
     const settingsContent = JSON.parse(props.settingsContent.data.settingsData.content);
     const { executeRecaptcha } = useGoogleReCaptcha();
@@ -55,7 +57,13 @@ function ContactUsPage(props) {
     const sendData = async (formData) => {
         const result = await sendContactData(formData);
         if (result.status === 200) {
-            toast.success('Thank your for contacting us !');
+            // toast.success('Thank your for contacting us !');
+            router.push({
+                pathname: '/thankyou',
+                query: {
+                    type: 'contact',
+                },
+            });
             reset();
         } else {
             toast.error(result?.error?.message);
