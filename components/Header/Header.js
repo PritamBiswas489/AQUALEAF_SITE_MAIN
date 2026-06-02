@@ -435,9 +435,9 @@ export default function Header({ settings }) {
                                     <Link href='/' className='navClose'></Link>
                                 </nav>
                                 <div className='bookCall'>
-                                    <a className='bookCallBtn' href={'https://calendly.com/aqualeafitsol/30min'} rel='noreferrer'>
-                                        Book a call
-                                    </a>
+                                    {/* <a className='bookCallBtn' href={'https://calendly.com/aqualeafitsol/30min'} rel='noreferrer'> */}
+
+                                    <Link className='bookCallBtn' href='/book-appointment'>Book a call</Link>
                                 </div>
                             </div>
                         </div>

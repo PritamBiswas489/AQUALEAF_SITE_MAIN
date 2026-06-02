@@ -205,7 +205,7 @@ const LetsTalk = ({ settings, projectModalOpen }) => {
 
                         <div className='shiduleBoxWrap d-flex mt-4'>
                             <div className='shiduleBox'>
-                                <Link href={'https://calendly.com/aqualeafitsol/30min'}>
+                                <Link href='/book-appointment'>
                                     <Image height={50} width={50} className={`next-inblock`} src={scheduleCall.src} alt='' /> Schedule a call
                                 </Link>
                             </div>
