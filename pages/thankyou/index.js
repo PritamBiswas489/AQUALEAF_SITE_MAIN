@@ -169,6 +169,16 @@ function ThankYouPage ( onBack ){
         fontWeight: 400,
         fontSize: '1.1rem',
         color: '#00c8b4',
+        margin: '0 0 4px',
+        opacity: visible ? 1 : 0,
+        transition: 'opacity 0.5s 1.15s ease',
+    };
+
+    const taglineSecond = {
+        fontFamily: "'Segoe UI', system-ui, sans-serif",
+        fontWeight: 400,
+        fontSize: '1.1rem',
+        color: '#00c8b4',
         margin: '0 0 28px',
         opacity: visible ? 1 : 0,
         transition: 'opacity 0.5s 1.15s ease',
@@ -302,7 +312,7 @@ function ThankYouPage ( onBack ){
 
                     {/* SVG Check */}
                     <div style={{ marginBottom: 24 }}>
-                        <svg width="96" height="96" viewBox="0 0 80 80" fill="none" style={{ display: 'block', margin: '0 auto' }}>
+                        <svg width="130" height="130" viewBox="0 0 80 80" fill="none" style={{ display: 'block', margin: '0 auto' }}>
                             <circle cx="40" cy="40" r="36" stroke="rgba(0,200,180,0.12)" strokeWidth="2" />
                             <circle
                                 cx="40" cy="40" r="36"
@@ -325,12 +335,13 @@ function ThankYouPage ( onBack ){
                     </div>
 
                     {/* Badge */}
-                    <div style={badge}>
+                    {/* <div style={badge}>
                         <span>●</span> Submission Successful
-                    </div>
+                    </div> */}
 
-                    <h1 style={heading}>Message Received!</h1>
-                    <p style={tagline}>We'll get back to you shortly.</p>
+                    <h1 style={heading}>THANK YOU!</h1>
+                    <p style={tagline}>Your request has been submitted successfully.</p>
+                    <p style={taglineSecond}>We'll get back to you shortly.</p>
                     <div style={divider} />
 
                     {types === 'project' && (
