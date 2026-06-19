@@ -17,24 +17,15 @@ export default function Document() {
         <meta name="ICBM" content="22.598676, 88.412255" />
         <meta name="facebook-domain-verification" content="v5t6lcltjf0dm1dbl60iu70pdziucj" />
         
-        {/* Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-WCYYPR7T1E"
-          strategy="beforeInteractive"
-        />
-
-        <Script
-          id="google-analytics"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-WCYYPR7T1E');
-            `,
-          }}
-        />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCYYPR7T1E"></script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WCYYPR7T1E');
+          `}
+        </Script>
       
       
        <Script id="facebook-pixel" strategy="afterInteractive">
@@ -52,28 +43,15 @@ fbq('track', 'PageView');`}
        
        </Script>
       
-  {/* Google Tag Manager */}
-  <Script
-    id="google-tag-manager"
-    strategy="beforeInteractive"
-    dangerouslySetInnerHTML={{
-      __html: `
-        (function(w,d,s,l,i){
-          w[l]=w[l]||[];
-          w[l].push({
-            'gtm.start': new Date().getTime(),
-            event:'gtm.js'
-          });
-          var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),
-              dl=l!='dataLayer' ? '&l='+l : '';
-          j.async=true;
-          j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-          f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-PXLL2CN');
-      `,
-    }}
-  />
+<script>{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-PXLL2CN');`}</script>
 
  
      
@@ -120,19 +98,12 @@ Phone: <span itemprop="telephone"> 919804070412</span>
       
       </Head>
       <body>
-        
-        <noscript
+     
+       <noscript
           dangerouslySetInnerHTML={{
-            __html: `
-              <iframe
-                src="https://www.googletagmanager.com/ns.html?id=GTM-PXLL2CN"
-                height="0"
-                width="0"
-                style="display:none;visibility:hidden">
-              </iframe>
-            `,
+            __html: '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXLL2CN" height="0" width="0" style="display:none;visibility:hidden"></iframe>'
           }}
-        />
+      />
         <Main />
         <NextScript />
       </body>
