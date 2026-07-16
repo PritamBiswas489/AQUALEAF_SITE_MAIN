@@ -135,6 +135,35 @@ Phone: <span itemprop="telephone"> 919804070412</span>
         />
         <Main />
         <NextScript />
+
+        
+        {/* Metricool Tracker */}
+        <Script
+          id="metricool-tracker"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              function loadScript(callback) {
+                var head = document.getElementsByTagName("head")[0];
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.src = "https://tracker.metricool.com/resources/be.js";
+                script.onreadystatechange = callback;
+                script.onload = callback;
+                head.appendChild(script);
+              }
+
+              loadScript(function () {
+                if (typeof beTracker !== "undefined") {
+                  beTracker.t({
+                    hash: "24446906a4bac25281beea055c5970e"
+                  });
+                }
+              });
+            `,
+          }}
+        />
+
       </body>
     </Html>
   )
