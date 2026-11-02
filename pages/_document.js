@@ -119,6 +119,30 @@ fbq('track', 'PageView');`}
       `,
     }}
   />
+  
+  <Script
+  id="google-ms-teams-click"
+  strategy="beforeInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `
+      // Google tag (gtag.js) event - delayed navigation helper
+      function gtagSendEvent(url) {
+        var callback = function () {
+          if (typeof url === 'string') {
+            window.location = url;
+          }
+        };
+
+        gtag('event', 'ms_teams_click', {
+          'event_callback': callback,
+          'event_timeout': 2000
+        });
+        
+        return false;
+      }
+    `,
+  }}
+/>
 
  
      

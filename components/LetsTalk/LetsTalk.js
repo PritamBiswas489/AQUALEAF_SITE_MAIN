@@ -148,7 +148,7 @@ const LetsTalk = ({ settings, projectModalOpen }) => {
                         <div className='divider'></div>
 
                         <div className='w-100'>
-                            <a href={settingsContent?.skypeId} target='_blank' className='contactItem d-flex align-items-center'>
+                            <a href={`https://teams.live.com/l/chat/0/0?users=eshaan789@gmail.com`} target='_blank' className='contactItem d-flex align-items-center'>
                                 <div className='ciImg'>
                                     <span>
                                         {/* <i className='fab fa-skype'></i> */}

@@ -17,15 +17,24 @@ export default function Document() {
         <meta name="ICBM" content="22.598676, 88.412255" />
         <meta name="facebook-domain-verification" content="v5t6lcltjf0dm1dbl60iu70pdziucj" />
         
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCYYPR7T1E"></script>
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-WCYYPR7T1E');
-          `}
-        </Script>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-WCYYPR7T1E"
+          strategy="beforeInteractive"
+        />
+
+        <Script
+          id="google-analytics"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-WCYYPR7T1E');
+            `,
+          }}
+        />
       
       
        <Script id="facebook-pixel" strategy="afterInteractive">
@@ -43,15 +52,28 @@ fbq('track', 'PageView');`}
        
        </Script>
       
-<script>{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-
-})(window,document,'script','dataLayer','GTM-PXLL2CN');`}</script>
+  {/* Google Tag Manager */}
+  <Script
+    id="google-tag-manager"
+    strategy="beforeInteractive"
+    dangerouslySetInnerHTML={{
+      __html: `
+        (function(w,d,s,l,i){
+          w[l]=w[l]||[];
+          w[l].push({
+            'gtm.start': new Date().getTime(),
+            event:'gtm.js'
+          });
+          var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),
+              dl=l!='dataLayer' ? '&l='+l : '';
+          j.async=true;
+          j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+          f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PXLL2CN');
+      `,
+    }}
+  />
 
  
      
@@ -98,14 +120,50 @@ Phone: <span itemprop="telephone"> 919804070412</span>
       
       </Head>
       <body>
-     
-       <noscript
+        
+        <noscript
           dangerouslySetInnerHTML={{
-            __html: '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXLL2CN" height="0" width="0" style="display:none;visibility:hidden"></iframe>'
+            __html: `
+              <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-PXLL2CN"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden">
+              </iframe>
+            `,
           }}
-      />
+        />
         <Main />
         <NextScript />
+
+        
+        {/* Metricool Tracker */}
+        <Script
+          id="metricool-tracker"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              function loadScript(callback) {
+                var head = document.getElementsByTagName("head")[0];
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.src = "https://tracker.metricool.com/resources/be.js";
+                script.onreadystatechange = callback;
+                script.onload = callback;
+                head.appendChild(script);
+              }
+
+              loadScript(function () {
+                if (typeof beTracker !== "undefined") {
+                  beTracker.t({
+                    hash: "24446906a4bac25281beea055c5970e"
+                  });
+                }
+              });
+            `,
+          }}
+        />
+
       </body>
     </Html>
   )

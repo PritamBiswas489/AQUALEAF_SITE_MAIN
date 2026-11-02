@@ -118,7 +118,7 @@ function Footer({ settings }) {
                                             {/* <a href={`${settingsContent?.skypeId}`} target='_blank' rel='noreferrer'>
                                                 <i className='fab fa-skype'></i> Skype
                                             </a> */}
-                                            <a href={`${settingsContent?.skypeId}`} target="_blank" rel="noreferrer">
+                                            <a href={`https://teams.live.com/l/chat/0/0?users=eshaan789@gmail.com`} target="_blank" rel="noreferrer">
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     width="20"
