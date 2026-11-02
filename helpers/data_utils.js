@@ -89,12 +89,11 @@ export async function getBlogDetails(slug) {
 }
 export async function sendContactData(data) {
     const { REACT_APP_API_URL } = config();
+    const isMultipart = data instanceof FormData;
     const response = await fetch(REACT_APP_API_URL + `/front/add-contact`, {
         method: 'POST',
-        body: JSON.stringify(data),
-        headers: {
-            'Content-Type': 'application/json',
-        },
+        body: isMultipart ? data : JSON.stringify(data),
+        ...(isMultipart ? {} : { headers: { 'Content-Type': 'application/json' } }),
     });
     return response.json();
 }

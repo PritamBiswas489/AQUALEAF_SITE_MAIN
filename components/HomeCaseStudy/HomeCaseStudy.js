@@ -18,6 +18,11 @@ import parse from 'html-react-parser';
 const { REACT_APP_RESOURCE_URL } = config();
 
 function HomeCaseStudy({ portfolioData }) {
+
+    const filteredportfolioData = portfolioData?.filter(
+    item => item.id >= 1 && item.id <= 10,
+    );
+
     return (
         <>
             <section className='relative owlWrapArea homeCaseStudy'>
@@ -31,9 +36,9 @@ function HomeCaseStudy({ portfolioData }) {
                         // autoplay={true}
                         smartSpeed={1200}
                     >
-                        {portfolioData?.length > 0 && (
+                        {filteredportfolioData?.length > 0 && (
                             <>
-                                {randomSort(portfolioData)?.map((val, i) => {
+                                {randomSort(filteredportfolioData)?.map((val, i) => {
                                     const content = JSON.parse(val?.content);
                                     return (
                                         <div className='item' key={`portfolio-${i}`}>

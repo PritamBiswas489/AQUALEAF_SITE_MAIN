@@ -35,6 +35,51 @@ export default function Document() {
             `,
           }}
         />
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18198009694"
+          strategy="beforeInteractive"
+        />
+
+        <Script
+          id="google-ads"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+
+              function gtag() {
+                dataLayer.push(arguments);
+              }
+
+              gtag('js', new Date());
+              gtag('config', 'AW-18198009694');
+            `,
+          }}
+        />
+
+        <Script
+          id="google-conversion-helper"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              function gtagSendEvent(url) {
+                var callback = function () {
+                  if (typeof url === 'string') {
+                    window.location = url;
+                  }
+                };
+
+                gtag('event', 'conversion_event_book_appointment', {
+                  event_callback: callback,
+                  event_timeout: 2000
+                });
+
+                return false;
+              }
+            `,
+          }}
+        />
       
       
        <Script id="facebook-pixel" strategy="afterInteractive">

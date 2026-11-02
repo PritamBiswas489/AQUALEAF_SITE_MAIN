@@ -4,7 +4,7 @@ import Link from 'next/link';
 import InputErrorMsg from '@/components/InputErrorMsg/InputErrorMsg';
 import './Contact.scss';
 import './ContactResponsive.scss';
-import { useForm } from 'react-hook-form';
+import { Controller, useForm } from 'react-hook-form';
 import contactBanner from '@/assets/images/common-image/contact-banner.png';
 import captcha from '@/assets/images/common-image/captcha.gif';
 import direction from '@/assets/images/common-image/direction.png';
@@ -21,8 +21,10 @@ import { SettingsContent, sendContactData } from '@/helpers/data_utils';
 import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import PhoneInput from 'react-phone-input-2';
 
 function ContactUsPage(props) {
+    const MAX_ATTACHMENT_SIZE = 5 * 1024 * 1024;
     const [token, setToken] = useState('');
     const router = useRouter();
 
@@ -44,17 +46,35 @@ function ContactUsPage(props) {
                 toast.error('Execute recaptcha not yet available');
                 return;
             }
-            executeRecaptcha('enquiryFormSubmit').then((gReCaptchaToken) => {
-                const formData = {
-                    ...data,
-                    token: gReCaptchaToken,
+
+            const gReCaptchaToken = await executeRecaptcha('enquiryFormSubmit');
+            const attachment = data.attachment?.[0];
+            const formData = {
+                ...data,
+                token: gReCaptchaToken,
+            };
+            delete formData.attachment;
+
+            if (attachment) {
+                const attachmentBuffer = await attachment.arrayBuffer();
+                const attachmentBytes = new Uint8Array(attachmentBuffer);
+                let attachmentBinary = '';
+                attachmentBytes.forEach((byte) => {
+                    attachmentBinary += String.fromCharCode(byte);
+                });
+                formData.attachment = {
+                    filename: attachment.name,
+                    content: btoa(attachmentBinary),
+                    size: attachment.size,
                 };
-                sendData(formData);
-            });
+            }
+
+            sendData(formData);
         },
         [executeRecaptcha]
     );
     const sendData = async (formData) => {
+        // console.log('formData', formData);return;
         const result = await sendContactData(formData);
         if (result.status === 200) {
             // toast.success('Thank your for contacting us !');
@@ -118,15 +138,51 @@ function ContactUsPage(props) {
                                                 <i className='fa fa-star' />
                                                 {errors.name && <InputErrorMsg error={errors.name?.message} />}
                                             </div>
-                                            <div className='form-group'>
+                                            {/* <div className='form-group'>
                                                 <input
                                                     id='ph_no'
                                                     type='text'
                                                     placeholder='Phone No'
                                                     className='form-control'
-                                                    {...register('ph_no', { required: 'Phone No is required' })}
+                                                    {...register('ph_no', {
+                                                        required: 'Phone No is required',
+                                                        pattern: {
+                                                            value: /^(?=(?:\D*\d){7,15}\D*$)[+\d][\d\s().-]*$/,
+                                                            message: 'Please enter a valid phone number',
+                                                        },
+                                                    })}
                                                 />
                                                 <i className='fa fa-star' />
+                                                {errors.ph_no && <InputErrorMsg error={errors.ph_no?.message} />}
+                                            </div> */}
+                                            <div className='form-floating mb-3'>
+                                                <Controller
+                                                    name='ph_no'
+                                                    control={control}
+                                                    render={({ field }) => <PhoneInput {...field} className='form-control applyInput' country={'in'} enableSearch={true} />}
+                                                    rules={{
+                                                        required: 'Phone No is required',
+                                                        validate: (value) => {
+                                                            if (!value) {
+                                                                return 'Phone No is required';
+                                                            }
+
+                                                            // Remove country code and non-numeric characters
+                                                            const phoneNumber = value.replace(/\D/g, '');
+
+                                                            if (phoneNumber.length < 7 || phoneNumber.length > 15) {
+                                                                return 'Please enter a valid phone number';
+                                                            }
+
+                                                            return true;
+                                                        },
+                                                    }}
+                                                />
+
+                                                <label htmlFor='floatingInput'>
+                                                    <strong>Contact No</strong>
+                                                </label>
+                                                {/* <i className='fa fa-star' /> */}
                                                 {errors.ph_no && <InputErrorMsg error={errors.ph_no?.message} />}
                                             </div>
                                             <div className='form-group'>
@@ -135,7 +191,13 @@ function ContactUsPage(props) {
                                                     type='text'
                                                     placeholder='Email'
                                                     className='form-control'
-                                                    {...register('email', { required: 'Email is required' })}
+                                                    {...register('email', {
+                                                        required: 'Email is required',
+                                                        pattern: {
+                                                            value: /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/,
+                                                            message: 'Please enter a valid email address',
+                                                        },
+                                                    })}
                                                 />
                                                 <i className='fa fa-star' />
                                                 {errors.email && <InputErrorMsg error={errors.email?.message} />}
@@ -151,6 +213,19 @@ function ContactUsPage(props) {
                                                     {...register('message', { required: 'Message is required' })}
                                                 />
                                                 {errors.message && <InputErrorMsg error={errors.message?.message} />}
+                                            </div>
+                                            <div className='form-group'>
+                                                <label htmlFor='contactAttachment'>Attachment </label>
+                                                <input
+                                                    id='contactAttachment'
+                                                    type='file'
+                                                    className='form-control'
+                                                    {...register('attachment', {
+                                                        validate: (files) =>
+                                                            !files?.[0] || files[0].size <= MAX_ATTACHMENT_SIZE || 'Attachment must be 5 MB or smaller',
+                                                    })}
+                                                />
+                                                {errors.attachment && <InputErrorMsg error={errors.attachment?.message} />}
                                             </div>
                                             <div className='form-group mb-0'>
                                                 <ul className='d-flex align-items-center justify-content-between'>

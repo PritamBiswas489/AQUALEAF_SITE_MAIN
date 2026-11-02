@@ -252,7 +252,14 @@ const LetsTalk = ({ settings, projectModalOpen }) => {
                                 className='form-control applyInput'
                                 id='floatingInput'
                                 placeholder='name@example.com'
-                                {...register('email', { required: 'Email is required' })}
+                                // {...register('email', { required: 'Email is required' })}
+                                {...register('email', {
+                                    required: 'Email is required',
+                                    pattern: {
+                                        value: /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/,
+                                        message: 'Please enter a valid email address',
+                                    },
+                                })}
                             />
                             <label htmlFor='floatingInput'>Email address</label>
                             {errors.email && <InputErrorMsg error={errors.email?.message} />}
@@ -262,7 +269,24 @@ const LetsTalk = ({ settings, projectModalOpen }) => {
                                 name='phone'
                                 control={control}
                                 render={({ field }) => <PhoneInput {...field} className='form-control applyInput' country={'in'} enableSearch={true} />}
-                                rules={{ required: 'Phone is required' }}
+                                // rules={{ required: 'Phone is required' }}
+                                rules={{
+                                    required: 'Phone No is required',
+                                    validate: (value) => {
+                                        if (!value) {
+                                            return 'Phone No is required';
+                                        }
+
+                                        // Remove country code and non-numeric characters
+                                        const phoneNumber = value.replace(/\D/g, '');
+
+                                        if (phoneNumber.length < 7 || phoneNumber.length > 15) {
+                                            return 'Please enter a valid phone number';
+                                        }
+
+                                        return true;
+                                    },
+                                }}
                             />
 
                             <label htmlFor='floatingInput'>
