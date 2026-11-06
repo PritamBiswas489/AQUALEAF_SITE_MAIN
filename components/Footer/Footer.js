@@ -208,7 +208,7 @@ function Footer({ settings }) {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='col-auto'>Copyright © 2023, Aqualeaf IT Solutions Pvt. Ltd. All rights reserved.</div>
+                            <div className='col-auto'>Copyright © {new Date().getFullYear()}, Aqualeaf IT Solutions Pvt. Ltd. All rights reserved.</div>
                         </div>
                     </div>
                 </div>

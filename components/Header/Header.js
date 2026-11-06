@@ -347,14 +347,14 @@ export default function Header({ settings }) {
                                                                             <Image height={100} width={100} className={`next-img`} alt='' src={menuIconOne.src} />
                                                                             <span>
                                                                                 How We Work
-                                                                                <small>Best Game App Developers.</small>
+                                                                                {/* <small>Best Game App Developers.</small> */}
                                                                             </span>
                                                                         </Link>
                                                                         <Link className='dropdown-item' href='/testimonial'>
                                                                             <Image height={100} width={100} className={`next-img`} alt='' src={menuIconOne.src} />
                                                                             <span>
                                                                                 Testimonial
-                                                                                <small>Best Game App Developers.</small>
+                                                                                {/* <small>Best Game App Developers.</small> */}
                                                                             </span>
                                                                         </Link>
                                                                     </div>
@@ -363,14 +363,14 @@ export default function Header({ settings }) {
                                                                             <Image height={100} width={100} className={`next-img`} alt='' src={menuIconOne.src} />
                                                                             <span>
                                                                                 Who We Are
-                                                                                <small>Best Game App Developers.</small>
+                                                                                {/* <small>Best Game App Developers.</small> */}
                                                                             </span>
                                                                         </Link>
                                                                         <Link className='dropdown-item' href='/blog'>
                                                                             <Image height={100} width={100} className={`next-img`} alt='' src={menuIconOne.src} />
                                                                             <span>
                                                                                 Blog
-                                                                                <small>Best Game App Developers.</small>
+                                                                                {/* <small>Best Game App Developers.</small> */}
                                                                             </span>
                                                                         </Link>
                                                                     </div>
@@ -391,7 +391,7 @@ export default function Header({ settings }) {
                                                                         <div className='dropdown-item'>
                                                                             <Image height={100} width={100} className={`next-img`} alt='' src={menuIconOne.src} />
                                                                             <span>
-                                                                                600+ <small>Employees</small>
+                                                                                30+ <small>Employees</small>
                                                                             </span>
                                                                         </div>
                                                                     </li>
