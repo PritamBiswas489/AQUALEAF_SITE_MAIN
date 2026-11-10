@@ -6,6 +6,7 @@ import 'react-confirm-alert/src/react-confirm-alert.css';
 import 'react-toastify/dist/ReactToastify.css';
 import '@/assets/styles/style.scss';
 import '@/assets/styles/build.css';
+import './usa/usa.css';
 import dynamic from 'next/dynamic';
 import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 import config from '@/helpers/config';
@@ -82,6 +83,11 @@ export default function App({ Component, pageProps }) {
             );
         };
     }, [Router.events]);
+
+    if (Component.standalone) {
+        return <Component {...pageProps} />;
+    }
+
     return isVerified === true ? (
         <GoogleReCaptchaProvider
             reCaptchaKey={REACT_APP_GOOGLE_RECAPTCHA_SITE_KEY}

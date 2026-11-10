@@ -120,6 +120,20 @@ export async function sendCareerFormData(data) {
     });
     return response.json();
 }
+
+
+export async function sendUsaContact(data) {
+    const { REACT_APP_API_URL } = config();
+    const response = await fetch(REACT_APP_API_URL + `/front/send-usa-contact`, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+            'Content-Type': 'application/json',
+        },
+    });
+    return response.json();
+}
+
 //`/add-contact`, data
 
 ///get-blog-details/${slug}
