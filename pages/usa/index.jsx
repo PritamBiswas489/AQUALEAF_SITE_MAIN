@@ -58,6 +58,7 @@ const navServices = [
 ];
 const navIndustries = ["Healthcare", "Real Estate", "E-commerce", "SaaS Platforms"];
 const portfolioSlides = ["/slider1.jpg", "/slider2.jpg", "/slider3.jpg", "/slider4.jpg"];
+const googleReviewsUrl = "https://www.google.com/search?gs_ssp=eJwFwUsKgCAUAEDaRlcIXLTPb_k8Qrcw84kgWaTi8ZsZpzWs7FVnCkE0OpiFdgGoAeXGd6c4l8zQLr11CJcW4BhKOGb7Vpu8RRIL-XKqJeb7I08rJJXrB_EjGes&q=aqualeaf+it+solutions+pvt+ltd&rlz=1C1CHBD_enIN1069IN1069&oq=aqua&gs_lcrp=EgZjaHJvbWUqDwgCEC4YJxivARjHARiOBTIGCAAQRRg8MgYIARBFGDsyDwgCEC4YJxivARjHARiOBTIGCAMQRRg5MgYIBBBFGDwyBggFEEUYPDIGCAYQRRhBMgYIBxBFGD3SAQg1NzEwajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8#lrd=0x39f89f4627c52241:0x4eacf9d839c1f49,1";
 const defaultReview = {
   description: "Aqualeaf delivered a high-quality, scalable solution for our business. Their communication, technical expertise and commitment to the project were outstanding.",
   clientName: "Michael R.",
@@ -235,7 +236,7 @@ export default function UsaPage() {
           <div className="u-container u-hero-grid">
             <div className="py-3">
               <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#00d1b0] px-4 py-2 text-sm font-bold shadow-[0_0_18px_#00b99c22] tag-border">
-                <span className="text-xl" aria-hidden="true">🇺🇸</span> Software Development Partner for US Businesses
+                US Software Development Partner for US Businesses
               </div>
               <h1 className="max-w-[760px] text-[clamp(34px,4.1vw,53px)] font-black leading-[1.04] tracking-[-.035em]">
                 Custom Software Development for Growing Businesses in the <span className="text-[#00d6b1]">USA</span>
@@ -250,7 +251,7 @@ export default function UsaPage() {
                 <div className="flex items-center gap-3"><ShieldCheck size={34} /><p className="text-sm leading-tight"><b className="text-xl">US Business</b><br />Ready Solutions</p></div>
               </div>
               <div className="mt-6 flex flex-wrap gap-4">
-                <a href="https://aqualeafitsol.com/book-appointment" className="u-btn-primary min-w-[245px]">Discuss Your Project <ArrowRight size={19} /></a>
+                <a href="https://aqualeafitsol.com/book-appointment" target="_blank" className="u-btn-primary min-w-[245px]">Discuss Your Project <ArrowRight size={19} /></a>
                 <a href="https://portfolios.aqualeafitsol.com/" target="_blank" rel="noreferrer" className="u-btn-outline min-w-[230px]">View Our Portfolio <ArrowUpRight size={18} /></a>
               </div>
             </div>
@@ -402,13 +403,27 @@ export default function UsaPage() {
                   {reviews.map((review, index) => (
                     <article key={review.id || review.clientName || index} className="min-w-full" aria-label={`Review ${index + 1} of ${reviews.length}`}>
                       <Quote size={30} className="text-[#00a982]" />
-                      <p className="mt-1 text-[14px] leading-5">{review.description}</p>
+                      <p className="mt-1 text-[14px] leading-5">
+                        <a href={googleReviewsUrl} target="_blank" rel="noopener noreferrer" className="text-inherit no-underline">
+                          {review.description}
+                        </a>
+                      </p>
                       <div className="mt-3 flex items-center justify-between gap-3">
                         <div>
-                          <b>{review.clientName}</b>
-                          <p className="text-xs">{review.clientDesignation}</p>
+                          <b>
+                            <a href={googleReviewsUrl} target="_blank" rel="noopener noreferrer" className="text-inherit no-underline">
+                              {review.clientName}
+                            </a>
+                          </b>
+                          <p className="text-xs">
+                            <a href={googleReviewsUrl} target="_blank" rel="noopener noreferrer" className="text-inherit no-underline">
+                              {review.clientDesignation}
+                            </a>
+                          </p>
                         </div>
-                        <span className="text-xl tracking-wider text-amber-500" aria-label="5 out of 5 stars">★★★★★</span>
+                        <a href={googleReviewsUrl} target="_blank" rel="noopener noreferrer" className="text-inherit no-underline">
+                          <span className="text-xl tracking-wider text-amber-500" aria-label="5 out of 5 stars">★★★★★</span>
+                        </a>
                       </div>
                     </article>
                   ))}
@@ -477,14 +492,17 @@ export default function UsaPage() {
             <div className="flex items-center gap-3">
               <Phone size={30} />
               <p className="font-extrabold">
-                +91 9804070412
+                <a href="tel:+919804070412" className="text-inherit no-underline">+91 9804070412</a>
                 <small className="block text-xs font-medium">Mon–Fri, 9:30 AM–7:00 PM (EST)</small>
               </p>
             </div>
           </div>
         </section>
         <footer id="usa-copyright">
-          © {new Date().getFullYear()} Aqualeaf IT Solutions Pvt Ltd. All rights reserved. · info@aqualeafitsol.com
+          © {new Date().getFullYear()}{" "}
+          <a href="https://aqualeafitsol.com/" className="text-inherit no-underline">Aqualeaf IT Solutions Pvt Ltd</a>
+          . All rights reserved. ·{" "}
+          <a href="mailto:info@aqualeafitsol.com" className="text-inherit no-underline">info@aqualeafitsol.com</a>
         </footer>
       </main>
     </>
